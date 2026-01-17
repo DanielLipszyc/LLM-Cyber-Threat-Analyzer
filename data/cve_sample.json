@@ -1,0 +1,84 @@
+{
+  "cves": [
+    {
+      "id": "CVE-2021-44228",
+      "description": "Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12.3, and 2.3.1) JNDI features used in configuration, log messages, and parameters do not protect against attacker controlled LDAP and other JNDI related endpoints. An attacker who can control log messages or log message parameters can execute arbitrary code loaded from LDAP servers when message lookup substitution is enabled.",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "affected_products": "Apache Log4j 2.0-beta9 through 2.15.0",
+      "references": ["https://logging.apache.org/log4j/2.x/security.html", "https://nvd.nist.gov/vuln/detail/CVE-2021-44228"],
+      "published": "2021-12-10",
+      "mitigation": "Upgrade to Log4j 2.17.0 or later. For older versions, remove JndiLookup class from the classpath."
+    },
+    {
+      "id": "CVE-2021-45046",
+      "description": "It was found that the fix to address CVE-2021-44228 in Apache Log4j 2.15.0 was incomplete in certain non-default configurations. This could allow attackers with control over Thread Context Map (MDC) input data when the logging configuration uses a non-default Pattern Layout with either a Context Lookup or a Thread Context Map pattern to craft malicious input data using a JNDI Lookup pattern resulting in an information leak and remote code execution.",
+      "severity": "CRITICAL",
+      "cvss_score": 9.0,
+      "affected_products": "Apache Log4j 2.0-beta9 through 2.15.0",
+      "references": ["https://nvd.nist.gov/vuln/detail/CVE-2021-45046"],
+      "published": "2021-12-14",
+      "mitigation": "Upgrade to Log4j 2.17.0 or later."
+    },
+    {
+      "id": "CVE-2023-44487",
+      "description": "The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023. This is known as the HTTP/2 Rapid Reset attack.",
+      "severity": "HIGH",
+      "cvss_score": 7.5,
+      "affected_products": "Multiple HTTP/2 implementations including nginx, Apache HTTP Server, Node.js, Go net/http2",
+      "references": ["https://nvd.nist.gov/vuln/detail/CVE-2023-44487", "https://cloud.google.com/blog/products/identity-security/how-it-works-the-novel-http2-rapid-reset-ddos-attack"],
+      "published": "2023-10-10",
+      "mitigation": "Apply vendor patches. Implement rate limiting for HTTP/2 stream resets."
+    },
+    {
+      "id": "CVE-2024-3094",
+      "description": "Malicious code was discovered in the upstream tarballs of xz, starting with version 5.6.0. Through a series of complex obfuscations, the liblzma build process extracts a prebuilt object file from a disguised test file existing in the source code, which is then used to modify specific functions in the liblzma code. This results in a modified liblzma library that can be used by any software linked against this library, intercepting and modifying the data interaction with this library.",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "affected_products": "xz Utils 5.6.0 and 5.6.1",
+      "references": ["https://nvd.nist.gov/vuln/detail/CVE-2024-3094", "https://www.openwall.com/lists/oss-security/2024/03/29/4"],
+      "published": "2024-03-29",
+      "mitigation": "Downgrade to xz Utils 5.4.x or earlier. Check system integrity."
+    },
+    {
+      "id": "CVE-2023-23397",
+      "description": "Microsoft Outlook Elevation of Privilege Vulnerability. An attacker who successfully exploited this vulnerability could access a user's Net-NTLMv2 hash which could be used as a basis of an NTLM Relay attack against another service to authenticate as the user.",
+      "severity": "CRITICAL",
+      "cvss_score": 9.8,
+      "affected_products": "Microsoft Outlook for Windows",
+      "references": ["https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-23397"],
+      "published": "2023-03-14",
+      "mitigation": "Apply Microsoft security updates. Block outbound SMB traffic on port 445."
+    },
+    {
+      "id": "CVE-2022-0847",
+      "description": "A flaw was found in the way the 'flags' member of the new pipe buffer structure was lacking proper initialization in copy_page_to_iter_pipe and push_pipe functions in the Linux kernel and could thus contain stale values. An unprivileged local user could use this flaw to write to pages in the page cache backed by read-only files and as such escalate their privileges on the system. This vulnerability is known as Dirty Pipe.",
+      "severity": "HIGH",
+      "cvss_score": 7.8,
+      "affected_products": "Linux Kernel 5.8 and later versions before 5.16.11, 5.15.25, and 5.10.102",
+      "references": ["https://nvd.nist.gov/vuln/detail/CVE-2022-0847", "https://dirtypipe.cm4all.com/"],
+      "published": "2022-03-07",
+      "mitigation": "Update to patched kernel versions."
+    },
+    {
+      "id": "CVE-2021-34527",
+      "description": "Windows Print Spooler Remote Code Execution Vulnerability, also known as PrintNightmare. A remote code execution vulnerability exists when the Windows Print Spooler service improperly performs privileged file operations. An attacker who successfully exploited this vulnerability could run arbitrary code with SYSTEM privileges.",
+      "severity": "CRITICAL",
+      "cvss_score": 8.8,
+      "affected_products": "Windows Server 2004, 2008, 2012, 2016, 2019; Windows 7, 8.1, 10",
+      "references": ["https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34527"],
+      "published": "2021-07-01",
+      "mitigation": "Apply Microsoft security updates. Disable Print Spooler service if not needed."
+    },
+    {
+      "id": "CVE-2020-1472",
+      "description": "Netlogon Elevation of Privilege Vulnerability, known as Zerologon. An elevation of privilege vulnerability exists when an attacker establishes a vulnerable Netlogon secure channel connection to a domain controller. An attacker who successfully exploited the vulnerability could run a specially crafted application on a device on the network.",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "affected_products": "Windows Server 2008 R2, 2012, 2012 R2, 2016, 2019",
+      "references": ["https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-1472", "https://www.secura.com/blog/zero-logon"],
+      "published": "2020-08-17",
+      "mitigation": "Apply Microsoft security updates. Enable enforcement mode for secure RPC."
+    }
+  ]
+}

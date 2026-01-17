@@ -1,0 +1,1878 @@
+{
+  "source": "NVD",
+  "fetched_at": "2026-01-17T15:46:53.651765",
+  "filters": {
+    "keyword": null,
+    "severity": null,
+    "year": null,
+    "days_back": null
+  },
+  "cves": [
+    {
+      "id": "CVE-1999-0095",
+      "title": "CVE-1999-0095: The debug command in Sendmail is enabled, allowing attackers to execute commands as root.",
+      "description": "The debug command in Sendmail is enabled, allowing attackers to execute commands as root.",
+      "severity": "HIGH",
+      "cvss_score": 10.0,
+      "affected_products": "eric_allman sendmail",
+      "references": [
+        "http://seclists.org/fulldisclosure/2019/Jun/16",
+        "http://www.openwall.com/lists/oss-security/2019/06/05/4",
+        "http://www.openwall.com/lists/oss-security/2019/06/06/1",
+        "http://www.osvdb.org/195",
+        "http://www.securityfocus.com/bid/1"
+      ],
+      "published": "1988-10-01",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-0095\n\nDescription: The debug command in Sendmail is enabled, allowing attackers to execute commands as root.\n\nSeverity: HIGH\nCVSS Score: 10.0\n\nAffected Products: eric_allman sendmail\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://seclists.org/fulldisclosure/2019/Jun/16, http://www.openwall.com/lists/oss-security/2019/06/05/4, http://www.openwall.com/lists/oss-security/2019/06/06/1, http://www.osvdb.org/195, http://www.securityfocus.com/bid/1\n\nPublished: 1988-10-01\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-0095"
+    },
+    {
+      "id": "CVE-1999-0082",
+      "title": "CVE-1999-0082: CWD ~root command in ftpd allows root access.",
+      "description": "CWD ~root command in ftpd allows root access.",
+      "severity": "HIGH",
+      "cvss_score": 10.0,
+      "affected_products": "ftp ftp, ftpcd ftpcd",
+      "references": [
+        "http://www.alw.nih.gov/Security/Docs/admin-guide-to-cracking.101.html",
+        "http://www.alw.nih.gov/Security/Docs/admin-guide-to-cracking.101.html"
+      ],
+      "published": "1988-11-11",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-0082\n\nDescription: CWD ~root command in ftpd allows root access.\n\nSeverity: HIGH\nCVSS Score: 10.0\n\nAffected Products: ftp ftp, ftpcd ftpcd\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.alw.nih.gov/Security/Docs/admin-guide-to-cracking.101.html, http://www.alw.nih.gov/Security/Docs/admin-guide-to-cracking.101.html\n\nPublished: 1988-11-11\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-0082"
+    },
+    {
+      "id": "CVE-1999-1471",
+      "title": "CVE-1999-1471: Buffer overflow in passwd in BSD based operating systems 4.3 and earlier allows local users to gain ...",
+      "description": "Buffer overflow in passwd in BSD based operating systems 4.3 and earlier allows local users to gain root privileges by specifying a long shell or GECOS field.",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "bsd bsd",
+      "references": [
+        "http://www.cert.org/advisories/CA-1989-01.html",
+        "http://www.iss.net/security_center/static/7152.php",
+        "http://www.securityfocus.com/bid/4",
+        "http://www.cert.org/advisories/CA-1989-01.html",
+        "http://www.iss.net/security_center/static/7152.php"
+      ],
+      "published": "1989-01-01",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1471\n\nDescription: Buffer overflow in passwd in BSD based operating systems 4.3 and earlier allows local users to gain root privileges by specifying a long shell or GECOS field.\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: bsd bsd\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.cert.org/advisories/CA-1989-01.html, http://www.iss.net/security_center/static/7152.php, http://www.securityfocus.com/bid/4, http://www.cert.org/advisories/CA-1989-01.html, http://www.iss.net/security_center/static/7152.php\n\nPublished: 1989-01-01\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1471"
+    },
+    {
+      "id": "CVE-1999-1122",
+      "title": "CVE-1999-1122: Vulnerability in restore in SunOS 4.0.3 and earlier allows local users to gain privileges.",
+      "description": "Vulnerability in restore in SunOS 4.0.3 and earlier allows local users to gain privileges.",
+      "severity": "MEDIUM",
+      "cvss_score": 4.6,
+      "affected_products": "sun sunos",
+      "references": [
+        "http://www.cert.org/advisories/CA-1989-02.html",
+        "http://www.ciac.org/ciac/bulletins/ciac-08.shtml",
+        "http://www.securityfocus.com/bid/3",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/6695",
+        "http://www.cert.org/advisories/CA-1989-02.html"
+      ],
+      "published": "1989-07-26",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1122\n\nDescription: Vulnerability in restore in SunOS 4.0.3 and earlier allows local users to gain privileges.\n\nSeverity: MEDIUM\nCVSS Score: 4.6\n\nAffected Products: sun sunos\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.cert.org/advisories/CA-1989-02.html, http://www.ciac.org/ciac/bulletins/ciac-08.shtml, http://www.securityfocus.com/bid/3, https://exchange.xforce.ibmcloud.com/vulnerabilities/6695, http://www.cert.org/advisories/CA-1989-02.html\n\nPublished: 1989-07-26\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1122"
+    },
+    {
+      "id": "CVE-1999-1467",
+      "title": "CVE-1999-1467: Vulnerability in rcp on SunOS 4.0.x allows remote attackers from trusted hosts to execute arbitrary ...",
+      "description": "Vulnerability in rcp on SunOS 4.0.x allows remote attackers from trusted hosts to execute arbitrary commands as root, possibly related to the configuration of the nobody user.",
+      "severity": "HIGH",
+      "cvss_score": 10.0,
+      "affected_products": "sun sunos",
+      "references": [
+        "http://www.cert.org/advisories/CA-1989-07.html",
+        "http://www.securityfocus.com/bid/5",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/3165",
+        "http://www.cert.org/advisories/CA-1989-07.html",
+        "http://www.securityfocus.com/bid/5"
+      ],
+      "published": "1989-10-26",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1467\n\nDescription: Vulnerability in rcp on SunOS 4.0.x allows remote attackers from trusted hosts to execute arbitrary commands as root, possibly related to the configuration of the nobody user.\n\nSeverity: HIGH\nCVSS Score: 10.0\n\nAffected Products: sun sunos\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.cert.org/advisories/CA-1989-07.html, http://www.securityfocus.com/bid/5, https://exchange.xforce.ibmcloud.com/vulnerabilities/3165, http://www.cert.org/advisories/CA-1989-07.html, http://www.securityfocus.com/bid/5\n\nPublished: 1989-10-26\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1467"
+    },
+    {
+      "id": "CVE-1999-1506",
+      "title": "CVE-1999-1506: Vulnerability in SMI Sendmail 4.0 and earlier, on SunOS up to 4.0.3, allows remote attackers to acce...",
+      "description": "Vulnerability in SMI Sendmail 4.0 and earlier, on SunOS up to 4.0.3, allows remote attackers to access user bin.",
+      "severity": "HIGH",
+      "cvss_score": 7.5,
+      "affected_products": "sun sunos",
+      "references": [
+        "http://www.cert.org/advisories/CA-90.01.sun.sendmail.vulnerability",
+        "http://www.securityfocus.com/bid/6",
+        "http://www.cert.org/advisories/CA-90.01.sun.sendmail.vulnerability",
+        "http://www.securityfocus.com/bid/6"
+      ],
+      "published": "1990-01-29",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1506\n\nDescription: Vulnerability in SMI Sendmail 4.0 and earlier, on SunOS up to 4.0.3, allows remote attackers to access user bin.\n\nSeverity: HIGH\nCVSS Score: 7.5\n\nAffected Products: sun sunos\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.cert.org/advisories/CA-90.01.sun.sendmail.vulnerability, http://www.securityfocus.com/bid/6, http://www.cert.org/advisories/CA-90.01.sun.sendmail.vulnerability, http://www.securityfocus.com/bid/6\n\nPublished: 1990-01-29\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1506"
+    },
+    {
+      "id": "CVE-1999-0084",
+      "title": "CVE-1999-0084: Certain NFS servers allow users to use mknod to gain privileges by creating a writable kmem device a...",
+      "description": "Certain NFS servers allow users to use mknod to gain privileges by creating a writable kmem device and setting the UID to 0.",
+      "severity": "HIGH",
+      "cvss_score": 8.4,
+      "affected_products": "sun nfs",
+      "references": [
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/78",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/78"
+      ],
+      "published": "1990-05-01",
+      "weaknesses": [
+        "NVD-CWE-Other",
+        "CWE-269"
+      ],
+      "content": "CVE ID: CVE-1999-0084\n\nDescription: Certain NFS servers allow users to use mknod to gain privileges by creating a writable kmem device and setting the UID to 0.\n\nSeverity: HIGH\nCVSS Score: 8.4\n\nAffected Products: sun nfs\n\nWeaknesses (CWE): NVD-CWE-Other, CWE-269\n\nReferences: https://exchange.xforce.ibmcloud.com/vulnerabilities/78, https://exchange.xforce.ibmcloud.com/vulnerabilities/78\n\nPublished: 1990-05-01\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-0084"
+    },
+    {
+      "id": "CVE-2000-0388",
+      "title": "CVE-2000-0388: Buffer overflow in FreeBSD libmytinfo library allows local users to execute commands via a long TERM...",
+      "description": "Buffer overflow in FreeBSD libmytinfo library allows local users to execute commands via a long TERMCAP environmental variable.",
+      "severity": "HIGH",
+      "cvss_score": 7.5,
+      "affected_products": "freebsd freebsd",
+      "references": [
+        "ftp://ftp.freebsd.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-00%3A17.libmytinfo.asc",
+        "http://www.securityfocus.com/bid/1185",
+        "ftp://ftp.freebsd.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-00%3A17.libmytinfo.asc",
+        "http://www.securityfocus.com/bid/1185"
+      ],
+      "published": "1990-05-09",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-2000-0388\n\nDescription: Buffer overflow in FreeBSD libmytinfo library allows local users to execute commands via a long TERMCAP environmental variable.\n\nSeverity: HIGH\nCVSS Score: 7.5\n\nAffected Products: freebsd freebsd\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: ftp://ftp.freebsd.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-00%3A17.libmytinfo.asc, http://www.securityfocus.com/bid/1185, ftp://ftp.freebsd.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-00%3A17.libmytinfo.asc, http://www.securityfocus.com/bid/1185\n\nPublished: 1990-05-09\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-2000-0388"
+    },
+    {
+      "id": "CVE-1999-0209",
+      "title": "CVE-1999-0209: The SunView (SunTools) selection_svc facility allows remote users to read files.",
+      "description": "The SunView (SunTools) selection_svc facility allows remote users to read files.",
+      "severity": "MEDIUM",
+      "cvss_score": 5.0,
+      "affected_products": "sun sunos",
+      "references": [
+        "http://www.securityfocus.com/bid/8",
+        "http://www.securityfocus.com/bid/8"
+      ],
+      "published": "1990-08-14",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-0209\n\nDescription: The SunView (SunTools) selection_svc facility allows remote users to read files.\n\nSeverity: MEDIUM\nCVSS Score: 5.0\n\nAffected Products: sun sunos\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.securityfocus.com/bid/8, http://www.securityfocus.com/bid/8\n\nPublished: 1990-08-14\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-0209"
+    },
+    {
+      "id": "CVE-1999-1198",
+      "title": "CVE-1999-1198: BuildDisk program on NeXT systems before 2.0 does not prompt users for the root password, which allo...",
+      "description": "BuildDisk program on NeXT systems before 2.0 does not prompt users for the root password, which allows local users to gain root privileges.",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "next next",
+      "references": [
+        "http://ciac.llnl.gov/ciac/bulletins/b-01.shtml",
+        "http://www.cert.org/advisories/CA-1990-06.html",
+        "http://www.iss.net/security_center/static/7141.php",
+        "http://www.securityfocus.com/bid/11",
+        "http://ciac.llnl.gov/ciac/bulletins/b-01.shtml"
+      ],
+      "published": "1990-10-03",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1198\n\nDescription: BuildDisk program on NeXT systems before 2.0 does not prompt users for the root password, which allows local users to gain root privileges.\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: next next\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://ciac.llnl.gov/ciac/bulletins/b-01.shtml, http://www.cert.org/advisories/CA-1990-06.html, http://www.iss.net/security_center/static/7141.php, http://www.securityfocus.com/bid/11, http://ciac.llnl.gov/ciac/bulletins/b-01.shtml\n\nPublished: 1990-10-03\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1198"
+    },
+    {
+      "id": "CVE-1999-1391",
+      "title": "CVE-1999-1391: Vulnerability in NeXT 1.0a and 1.0 with publicly accessible printers allows local users to gain priv...",
+      "description": "Vulnerability in NeXT 1.0a and 1.0 with publicly accessible printers allows local users to gain privileges via a combination of the npd program and weak directory permissions.",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "next next",
+      "references": [
+        "http://ciac.llnl.gov/ciac/bulletins/b-01.shtml",
+        "http://www.cert.org/advisories/CA-1990-06.html",
+        "http://www.iss.net/security_center/static/7143.php",
+        "http://www.securityfocus.com/bid/10",
+        "http://ciac.llnl.gov/ciac/bulletins/b-01.shtml"
+      ],
+      "published": "1990-10-03",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1391\n\nDescription: Vulnerability in NeXT 1.0a and 1.0 with publicly accessible printers allows local users to gain privileges via a combination of the npd program and weak directory permissions.\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: next next\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://ciac.llnl.gov/ciac/bulletins/b-01.shtml, http://www.cert.org/advisories/CA-1990-06.html, http://www.iss.net/security_center/static/7143.php, http://www.securityfocus.com/bid/10, http://ciac.llnl.gov/ciac/bulletins/b-01.shtml\n\nPublished: 1990-10-03\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1391"
+    },
+    {
+      "id": "CVE-1999-1392",
+      "title": "CVE-1999-1392: Vulnerability in restore0.9 installation script in NeXT 1.0a and 1.0 allows local users to gain root...",
+      "description": "Vulnerability in restore0.9 installation script in NeXT 1.0a and 1.0 allows local users to gain root privileges.",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "next next, next nex",
+      "references": [
+        "http://ciac.llnl.gov/ciac/bulletins/b-01.shtml",
+        "http://www.cert.org/advisories/CA-1990-06.html",
+        "http://www.iss.net/security_center/static/7144.php",
+        "http://www.securityfocus.com/bid/9",
+        "http://ciac.llnl.gov/ciac/bulletins/b-01.shtml"
+      ],
+      "published": "1990-10-03",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1392\n\nDescription: Vulnerability in restore0.9 installation script in NeXT 1.0a and 1.0 allows local users to gain root privileges.\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: next next, next nex\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://ciac.llnl.gov/ciac/bulletins/b-01.shtml, http://www.cert.org/advisories/CA-1990-06.html, http://www.iss.net/security_center/static/7144.php, http://www.securityfocus.com/bid/9, http://ciac.llnl.gov/ciac/bulletins/b-01.shtml\n\nPublished: 1990-10-03\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1392"
+    },
+    {
+      "id": "CVE-1999-1057",
+      "title": "CVE-1999-1057: VMS 4.0 through 5.3 allows local users to gain privileges via the ANALYZE/PROCESS_DUMP dcl command.",
+      "description": "VMS 4.0 through 5.3 allows local users to gain privileges via the ANALYZE/PROCESS_DUMP dcl command.",
+      "severity": "MEDIUM",
+      "cvss_score": 4.6,
+      "affected_products": "digital vms",
+      "references": [
+        "http://ciac.llnl.gov/ciac/bulletins/b-04.shtml",
+        "http://www.cert.org/advisories/CA-1990-07.html",
+        "http://www.iss.net/security_center/static/7137.php",
+        "http://www.securityfocus.com/bid/12",
+        "http://ciac.llnl.gov/ciac/bulletins/b-04.shtml"
+      ],
+      "published": "1990-10-25",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1057\n\nDescription: VMS 4.0 through 5.3 allows local users to gain privileges via the ANALYZE/PROCESS_DUMP dcl command.\n\nSeverity: MEDIUM\nCVSS Score: 4.6\n\nAffected Products: digital vms\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://ciac.llnl.gov/ciac/bulletins/b-04.shtml, http://www.cert.org/advisories/CA-1990-07.html, http://www.iss.net/security_center/static/7137.php, http://www.securityfocus.com/bid/12, http://ciac.llnl.gov/ciac/bulletins/b-04.shtml\n\nPublished: 1990-10-25\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1057"
+    },
+    {
+      "id": "CVE-1999-1554",
+      "title": "CVE-1999-1554: /usr/sbin/Mail on SGI IRIX 3.3 and 3.3.1 does not properly set the group ID to the group ID of the u...",
+      "description": "/usr/sbin/Mail on SGI IRIX 3.3 and 3.3.1 does not properly set the group ID to the group ID of the user who started Mail, which allows local users to read the mail of other users.",
+      "severity": "LOW",
+      "cvss_score": 2.1,
+      "affected_products": "sgi irix",
+      "references": [
+        "http://www.cert.org/advisories/CA-1990-08.html",
+        "http://www.iss.net/security_center/static/3164.php",
+        "http://www.securityfocus.com/bid/13",
+        "http://www.cert.org/advisories/CA-1990-08.html",
+        "http://www.iss.net/security_center/static/3164.php"
+      ],
+      "published": "1990-10-31",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1554\n\nDescription: /usr/sbin/Mail on SGI IRIX 3.3 and 3.3.1 does not properly set the group ID to the group ID of the user who started Mail, which allows local users to read the mail of other users.\n\nSeverity: LOW\nCVSS Score: 2.1\n\nAffected Products: sgi irix\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.cert.org/advisories/CA-1990-08.html, http://www.iss.net/security_center/static/3164.php, http://www.securityfocus.com/bid/13, http://www.cert.org/advisories/CA-1990-08.html, http://www.iss.net/security_center/static/3164.php\n\nPublished: 1990-10-31\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1554"
+    },
+    {
+      "id": "CVE-1999-1197",
+      "title": "CVE-1999-1197: TIOCCONS in SunOS 4.1.1 does not properly check the permissions of a user who tries to redirect cons...",
+      "description": "TIOCCONS in SunOS 4.1.1 does not properly check the permissions of a user who tries to redirect console output and input, which could allow a local user to gain privileges.",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "sun sunos",
+      "references": [
+        "http://www.cert.org/advisories/CA-1990-12.html",
+        "http://www.iss.net/security_center/static/7140.php",
+        "http://www.securityfocus.com/bid/14",
+        "http://www.cert.org/advisories/CA-1990-12.html",
+        "http://www.iss.net/security_center/static/7140.php"
+      ],
+      "published": "1990-12-20",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1197\n\nDescription: TIOCCONS in SunOS 4.1.1 does not properly check the permissions of a user who tries to redirect console output and input, which could allow a local user to gain privileges.\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: sun sunos\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.cert.org/advisories/CA-1990-12.html, http://www.iss.net/security_center/static/7140.php, http://www.securityfocus.com/bid/14, http://www.cert.org/advisories/CA-1990-12.html, http://www.iss.net/security_center/static/7140.php\n\nPublished: 1990-12-20\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1197"
+    },
+    {
+      "id": "CVE-1999-1115",
+      "title": "CVE-1999-1115: Vulnerability in the /etc/suid_exec program in HP Apollo Domain/OS sr10.2 and sr10.3 beta, related t...",
+      "description": "Vulnerability in the /etc/suid_exec program in HP Apollo Domain/OS sr10.2 and sr10.3 beta, related to the Korn Shell (ksh).",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "hp apollo_domain_os",
+      "references": [
+        "http://www.cert.org/advisories/CA-1990-04.html",
+        "http://www.ciac.org/ciac/bulletins/a-30.shtml",
+        "http://www.iss.net/security_center/static/6721.php",
+        "http://www.securityfocus.com/bid/7",
+        "http://www.cert.org/advisories/CA-1990-04.html"
+      ],
+      "published": "1990-12-31",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1115\n\nDescription: Vulnerability in the /etc/suid_exec program in HP Apollo Domain/OS sr10.2 and sr10.3 beta, related to the Korn Shell (ksh).\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: hp apollo_domain_os\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.cert.org/advisories/CA-1990-04.html, http://www.ciac.org/ciac/bulletins/a-30.shtml, http://www.iss.net/security_center/static/6721.php, http://www.securityfocus.com/bid/7, http://www.cert.org/advisories/CA-1990-04.html\n\nPublished: 1990-12-31\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1115"
+    },
+    {
+      "id": "CVE-1999-1258",
+      "title": "CVE-1999-1258: rpc.pwdauthd in SunOS 4.1.1 and earlier does not properly prevent remote access to the daemon, which...",
+      "description": "rpc.pwdauthd in SunOS 4.1.1 and earlier does not properly prevent remote access to the daemon, which allows remote attackers to obtain sensitive system information.",
+      "severity": "MEDIUM",
+      "cvss_score": 5.0,
+      "affected_products": "sun sunos",
+      "references": [
+        "http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/102",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/1782",
+        "http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/102",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/1782"
+      ],
+      "published": "1991-01-15",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1258\n\nDescription: rpc.pwdauthd in SunOS 4.1.1 and earlier does not properly prevent remote access to the daemon, which allows remote attackers to obtain sensitive system information.\n\nSeverity: MEDIUM\nCVSS Score: 5.0\n\nAffected Products: sun sunos\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/102, https://exchange.xforce.ibmcloud.com/vulnerabilities/1782, http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/102, https://exchange.xforce.ibmcloud.com/vulnerabilities/1782\n\nPublished: 1991-01-15\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1258"
+    },
+    {
+      "id": "CVE-1999-1438",
+      "title": "CVE-1999-1438: Vulnerability in /bin/mail in SunOS 4.1.1 and earlier allows local users to gain root privileges via...",
+      "description": "Vulnerability in /bin/mail in SunOS 4.1.1 and earlier allows local users to gain root privileges via certain command line arguments.",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "sun sunos",
+      "references": [
+        "http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/105",
+        "http://www.cert.org/advisories/CA-91.01a.SunOS.mail.vulnerability",
+        "http://www.securityfocus.com/bid/15",
+        "http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/105",
+        "http://www.cert.org/advisories/CA-91.01a.SunOS.mail.vulnerability"
+      ],
+      "published": "1991-02-22",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1438\n\nDescription: Vulnerability in /bin/mail in SunOS 4.1.1 and earlier allows local users to gain root privileges via certain command line arguments.\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: sun sunos\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/105, http://www.cert.org/advisories/CA-91.01a.SunOS.mail.vulnerability, http://www.securityfocus.com/bid/15, http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/105, http://www.cert.org/advisories/CA-91.01a.SunOS.mail.vulnerability\n\nPublished: 1991-02-22\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1438"
+    },
+    {
+      "id": "CVE-1999-1211",
+      "title": "CVE-1999-1211: Vulnerability in in.telnetd in SunOS 4.1.1 and earlier allows local users to gain root privileges.",
+      "description": "Vulnerability in in.telnetd in SunOS 4.1.1 and earlier allows local users to gain root privileges.",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "sun sunos",
+      "references": [
+        "http://www.cert.org/advisories/CA-1991-02.html",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/574",
+        "http://www.cert.org/advisories/CA-1991-02.html",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/574"
+      ],
+      "published": "1991-03-27",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1211\n\nDescription: Vulnerability in in.telnetd in SunOS 4.1.1 and earlier allows local users to gain root privileges.\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: sun sunos\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.cert.org/advisories/CA-1991-02.html, https://exchange.xforce.ibmcloud.com/vulnerabilities/574, http://www.cert.org/advisories/CA-1991-02.html, https://exchange.xforce.ibmcloud.com/vulnerabilities/574\n\nPublished: 1991-03-27\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1211"
+    },
+    {
+      "id": "CVE-1999-1212",
+      "title": "CVE-1999-1212: Vulnerability in in.rlogind in SunOS 4.0.3 and 4.0.3c allows local users to gain root privileges.",
+      "description": "Vulnerability in in.rlogind in SunOS 4.0.3 and 4.0.3c allows local users to gain root privileges.",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "sun sunos",
+      "references": [
+        "http://www.cert.org/advisories/CA-1991-02.html",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/574",
+        "http://www.cert.org/advisories/CA-1991-02.html",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/574"
+      ],
+      "published": "1991-03-27",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1212\n\nDescription: Vulnerability in in.rlogind in SunOS 4.0.3 and 4.0.3c allows local users to gain root privileges.\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: sun sunos\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.cert.org/advisories/CA-1991-02.html, https://exchange.xforce.ibmcloud.com/vulnerabilities/574, http://www.cert.org/advisories/CA-1991-02.html, https://exchange.xforce.ibmcloud.com/vulnerabilities/574\n\nPublished: 1991-03-27\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1212"
+    },
+    {
+      "id": "CVE-1999-1194",
+      "title": "CVE-1999-1194: chroot in Digital Ultrix 4.1 and 4.0 is insecurely installed, which allows local users to gain privi...",
+      "description": "chroot in Digital Ultrix 4.1 and 4.0 is insecurely installed, which allows local users to gain privileges.",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "digital ultrix",
+      "references": [
+        "http://www.cert.org/advisories/CA-1991-05.html",
+        "http://www.securityfocus.com/bid/17",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/577",
+        "http://www.cert.org/advisories/CA-1991-05.html",
+        "http://www.securityfocus.com/bid/17"
+      ],
+      "published": "1991-05-01",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1194\n\nDescription: chroot in Digital Ultrix 4.1 and 4.0 is insecurely installed, which allows local users to gain privileges.\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: digital ultrix\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.cert.org/advisories/CA-1991-05.html, http://www.securityfocus.com/bid/17, https://exchange.xforce.ibmcloud.com/vulnerabilities/577, http://www.cert.org/advisories/CA-1991-05.html, http://www.securityfocus.com/bid/17\n\nPublished: 1991-05-01\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1194"
+    },
+    {
+      "id": "CVE-1999-1193",
+      "title": "CVE-1999-1193: The \"me\" user in NeXT NeXTstep 2.1 and earlier has wheel group privileges, which could allow the me ...",
+      "description": "The \"me\" user in NeXT NeXTstep 2.1 and earlier has wheel group privileges, which could allow the me user to use the su command to become root.",
+      "severity": "HIGH",
+      "cvss_score": 10.0,
+      "affected_products": "next next",
+      "references": [
+        "http://www.cert.org/advisories/CA-1991-06.html",
+        "http://www.securityfocus.com/bid/20",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/581",
+        "http://www.cert.org/advisories/CA-1991-06.html",
+        "http://www.securityfocus.com/bid/20"
+      ],
+      "published": "1991-05-14",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1193\n\nDescription: The \"me\" user in NeXT NeXTstep 2.1 and earlier has wheel group privileges, which could allow the me user to use the su command to become root.\n\nSeverity: HIGH\nCVSS Score: 10.0\n\nAffected Products: next next\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.cert.org/advisories/CA-1991-06.html, http://www.securityfocus.com/bid/20, https://exchange.xforce.ibmcloud.com/vulnerabilities/581, http://www.cert.org/advisories/CA-1991-06.html, http://www.securityfocus.com/bid/20\n\nPublished: 1991-05-14\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1193"
+    },
+    {
+      "id": "CVE-1999-1123",
+      "title": "CVE-1999-1123: The installation of Sun Source (sunsrc) tapes allows local users to gain root privileges via setuid ...",
+      "description": "The installation of Sun Source (sunsrc) tapes allows local users to gain root privileges via setuid root programs (1) makeinstall or (2) winstall.",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "sun sunos",
+      "references": [
+        "http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/107&type=0&nav=sec.sba",
+        "http://www.cert.org/advisories/CA-1991-07.html",
+        "http://www.securityfocus.com/bid/21",
+        "http://www.securityfocus.com/bid/22",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/582"
+      ],
+      "published": "1991-05-20",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1123\n\nDescription: The installation of Sun Source (sunsrc) tapes allows local users to gain root privileges via setuid root programs (1) makeinstall or (2) winstall.\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: sun sunos\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/107&type=0&nav=sec.sba, http://www.cert.org/advisories/CA-1991-07.html, http://www.securityfocus.com/bid/21, http://www.securityfocus.com/bid/22, https://exchange.xforce.ibmcloud.com/vulnerabilities/582\n\nPublished: 1991-05-20\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1123"
+    },
+    {
+      "id": "CVE-1999-1034",
+      "title": "CVE-1999-1034: Vulnerability in login in AT&T System V Release 4 allows local users to gain privileges.",
+      "description": "Vulnerability in login in AT&T System V Release 4 allows local users to gain privileges.",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "att svr4",
+      "references": [
+        "http://www.cert.org/advisories/CA-1991-08.html",
+        "http://www.ciac.org/ciac/bulletins/b-28.shtml",
+        "http://www.securityfocus.com/bid/23",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/583",
+        "http://www.cert.org/advisories/CA-1991-08.html"
+      ],
+      "published": "1991-05-23",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1034\n\nDescription: Vulnerability in login in AT&T System V Release 4 allows local users to gain privileges.\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: att svr4\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.cert.org/advisories/CA-1991-08.html, http://www.ciac.org/ciac/bulletins/b-28.shtml, http://www.securityfocus.com/bid/23, https://exchange.xforce.ibmcloud.com/vulnerabilities/583, http://www.cert.org/advisories/CA-1991-08.html\n\nPublished: 1991-05-23\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1034"
+    },
+    {
+      "id": "CVE-1999-1415",
+      "title": "CVE-1999-1415: Vulnerability in /usr/bin/mail in DEC ULTRIX before 4.2 allows local users to gain privileges.",
+      "description": "Vulnerability in /usr/bin/mail in DEC ULTRIX before 4.2 allows local users to gain privileges.",
+      "severity": "MEDIUM",
+      "cvss_score": 4.6,
+      "affected_products": "digital ultrix",
+      "references": [
+        "http://www.cert.org/advisories/CA-91.13.Ultrix.mail.vulnerability",
+        "http://www.securityfocus.com/bid/27",
+        "http://www.cert.org/advisories/CA-91.13.Ultrix.mail.vulnerability",
+        "http://www.securityfocus.com/bid/27"
+      ],
+      "published": "1991-08-23",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1415\n\nDescription: Vulnerability in /usr/bin/mail in DEC ULTRIX before 4.2 allows local users to gain privileges.\n\nSeverity: MEDIUM\nCVSS Score: 4.6\n\nAffected Products: digital ultrix\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.cert.org/advisories/CA-91.13.Ultrix.mail.vulnerability, http://www.securityfocus.com/bid/27, http://www.cert.org/advisories/CA-91.13.Ultrix.mail.vulnerability, http://www.securityfocus.com/bid/27\n\nPublished: 1991-08-23\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1415"
+    },
+    {
+      "id": "CVE-1999-1090",
+      "title": "CVE-1999-1090: The default configuration of NCSA Telnet package for Macintosh and PC enables FTP, even though it do...",
+      "description": "The default configuration of NCSA Telnet package for Macintosh and PC enables FTP, even though it does not include an \"ftp=yes\" line, which allows remote attackers to read and modify arbitrary files.",
+      "severity": "HIGH",
+      "cvss_score": 7.5,
+      "affected_products": "ncsa telnet",
+      "references": [
+        "http://www.cert.org/advisories/CA-1991-15.html",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/1844",
+        "http://www.cert.org/advisories/CA-1991-15.html",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/1844"
+      ],
+      "published": "1991-09-10",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1090\n\nDescription: The default configuration of NCSA Telnet package for Macintosh and PC enables FTP, even though it does not include an \"ftp=yes\" line, which allows remote attackers to read and modify arbitrary files.\n\nSeverity: HIGH\nCVSS Score: 7.5\n\nAffected Products: ncsa telnet\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.cert.org/advisories/CA-1991-15.html, https://exchange.xforce.ibmcloud.com/vulnerabilities/1844, http://www.cert.org/advisories/CA-1991-15.html, https://exchange.xforce.ibmcloud.com/vulnerabilities/1844\n\nPublished: 1991-09-10\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1090"
+    },
+    {
+      "id": "CVE-1999-0498",
+      "title": "CVE-1999-0498: TFTP is not running in a restricted directory, allowing a remote attacker to access sensitive inform...",
+      "description": "TFTP is not running in a restricted directory, allowing a remote attacker to access sensitive information such as password files.",
+      "severity": "HIGH",
+      "cvss_score": 10.0,
+      "affected_products": "See vendor advisories",
+      "references": [
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0498",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0498"
+      ],
+      "published": "1991-09-27",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-0498\n\nDescription: TFTP is not running in a restricted directory, allowing a remote attacker to access sensitive information such as password files.\n\nSeverity: HIGH\nCVSS Score: 10.0\n\nAffected Products: See vendor advisories\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0498, https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0498\n\nPublished: 1991-09-27\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-0498"
+    },
+    {
+      "id": "CVE-1999-1468",
+      "title": "CVE-1999-1468: rdist in various UNIX systems uses popen to execute sendmail, which allows local users to gain root ...",
+      "description": "rdist in various UNIX systems uses popen to execute sendmail, which allows local users to gain root privileges by modifying the IFS (Internal Field Separator) variable.",
+      "severity": "MEDIUM",
+      "cvss_score": 6.2,
+      "affected_products": "next next, cray unicos, sgi irix, sun sunos",
+      "references": [
+        "http://www.alw.nih.gov/Security/8lgm/8lgm-Advisory-01.html",
+        "http://www.cert.org/advisories/CA-91.20.rdist.vulnerability",
+        "http://www.iss.net/security_center/static/7160.php",
+        "http://www.osvdb.org/8106",
+        "http://www.securityfocus.com/bid/31"
+      ],
+      "published": "1991-10-22",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1468\n\nDescription: rdist in various UNIX systems uses popen to execute sendmail, which allows local users to gain root privileges by modifying the IFS (Internal Field Separator) variable.\n\nSeverity: MEDIUM\nCVSS Score: 6.2\n\nAffected Products: next next, cray unicos, sgi irix, sun sunos\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.alw.nih.gov/Security/8lgm/8lgm-Advisory-01.html, http://www.cert.org/advisories/CA-91.20.rdist.vulnerability, http://www.iss.net/security_center/static/7160.php, http://www.osvdb.org/8106, http://www.securityfocus.com/bid/31\n\nPublished: 1991-10-22\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1468"
+    },
+    {
+      "id": "CVE-1999-0167",
+      "title": "CVE-1999-0167: In SunOS, NFS file handles could be guessed, giving unauthorized access to the exported file system.",
+      "description": "In SunOS, NFS file handles could be guessed, giving unauthorized access to the exported file system.",
+      "severity": "MEDIUM",
+      "cvss_score": 4.6,
+      "affected_products": "sun sunos",
+      "references": [
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0167",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0167"
+      ],
+      "published": "1991-12-06",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-0167\n\nDescription: In SunOS, NFS file handles could be guessed, giving unauthorized access to the exported file system.\n\nSeverity: MEDIUM\nCVSS Score: 4.6\n\nAffected Products: sun sunos\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0167, https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0167\n\nPublished: 1991-12-06\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-0167"
+    },
+    {
+      "id": "CVE-1999-1493",
+      "title": "CVE-1999-1493: Vulnerability in crp in Hewlett Packard Apollo Domain OS SR10 through SR10.3 allows remote attackers...",
+      "description": "Vulnerability in crp in Hewlett Packard Apollo Domain OS SR10 through SR10.3 allows remote attackers to gain root privileges via insecure system calls, (1) pad_$dm_cmd and (2) pad_$def_pfk().",
+      "severity": "HIGH",
+      "cvss_score": 10.0,
+      "affected_products": "hp apollo_domain_os",
+      "references": [
+        "http://www.cert.org/advisories/CA-1991-23.html",
+        "http://www.securityfocus.com/bid/34",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/7158",
+        "http://www.cert.org/advisories/CA-1991-23.html",
+        "http://www.securityfocus.com/bid/34"
+      ],
+      "published": "1991-12-18",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1493\n\nDescription: Vulnerability in crp in Hewlett Packard Apollo Domain OS SR10 through SR10.3 allows remote attackers to gain root privileges via insecure system calls, (1) pad_$dm_cmd and (2) pad_$def_pfk().\n\nSeverity: HIGH\nCVSS Score: 10.0\n\nAffected Products: hp apollo_domain_os\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.cert.org/advisories/CA-1991-23.html, http://www.securityfocus.com/bid/34, https://exchange.xforce.ibmcloud.com/vulnerabilities/7158, http://www.cert.org/advisories/CA-1991-23.html, http://www.securityfocus.com/bid/34\n\nPublished: 1991-12-18\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1493"
+    },
+    {
+      "id": "CVE-1999-1032",
+      "title": "CVE-1999-1032: Vulnerability in LAT/Telnet Gateway (lattelnet) on Ultrix 4.1 and 4.2 allows attackers to gain root ...",
+      "description": "Vulnerability in LAT/Telnet Gateway (lattelnet) on Ultrix 4.1 and 4.2 allows attackers to gain root privileges.",
+      "severity": "HIGH",
+      "cvss_score": 10.0,
+      "affected_products": "digital ultrix",
+      "references": [
+        "http://ciac.llnl.gov/ciac/bulletins/b-36.shtml",
+        "http://www.cert.org/advisories/CA-1991-11.html",
+        "http://www.securityfocus.com/bid/26",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/584",
+        "http://ciac.llnl.gov/ciac/bulletins/b-36.shtml"
+      ],
+      "published": "1991-12-31",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1032\n\nDescription: Vulnerability in LAT/Telnet Gateway (lattelnet) on Ultrix 4.1 and 4.2 allows attackers to gain root privileges.\n\nSeverity: HIGH\nCVSS Score: 10.0\n\nAffected Products: digital ultrix\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://ciac.llnl.gov/ciac/bulletins/b-36.shtml, http://www.cert.org/advisories/CA-1991-11.html, http://www.securityfocus.com/bid/26, https://exchange.xforce.ibmcloud.com/vulnerabilities/584, http://ciac.llnl.gov/ciac/bulletins/b-36.shtml\n\nPublished: 1991-12-31\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1032"
+    },
+    {
+      "id": "CVE-1999-1059",
+      "title": "CVE-1999-1059: Vulnerability in rexec daemon (rexecd) in AT&T TCP/IP 4.0 for various SVR4 systems allows remote att...",
+      "description": "Vulnerability in rexec daemon (rexecd) in AT&T TCP/IP 4.0 for various SVR4 systems allows remote attackers to execute arbitrary commands.",
+      "severity": "HIGH",
+      "cvss_score": 10.0,
+      "affected_products": "att svr4",
+      "references": [
+        "http://www.cert.org/advisories/CA-1992-04.html",
+        "http://www.iss.net/security_center/static/3159.php",
+        "http://www.securityfocus.com/bid/36",
+        "http://www.cert.org/advisories/CA-1992-04.html",
+        "http://www.iss.net/security_center/static/3159.php"
+      ],
+      "published": "1992-02-25",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1059\n\nDescription: Vulnerability in rexec daemon (rexecd) in AT&T TCP/IP 4.0 for various SVR4 systems allows remote attackers to execute arbitrary commands.\n\nSeverity: HIGH\nCVSS Score: 10.0\n\nAffected Products: att svr4\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.cert.org/advisories/CA-1992-04.html, http://www.iss.net/security_center/static/3159.php, http://www.securityfocus.com/bid/36, http://www.cert.org/advisories/CA-1992-04.html, http://www.iss.net/security_center/static/3159.php\n\nPublished: 1992-02-25\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1059"
+    },
+    {
+      "id": "CVE-1999-0627",
+      "title": "CVE-1999-0627: The rexd service is running, which uses weak authentication that can allow an attacker to execute co...",
+      "description": "The rexd service is running, which uses weak authentication that can allow an attacker to execute commands.",
+      "severity": "LOW",
+      "cvss_score": 0.0,
+      "affected_products": "ibm aix",
+      "references": [
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0627",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0627"
+      ],
+      "published": "1992-03-01",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-0627\n\nDescription: The rexd service is running, which uses weak authentication that can allow an attacker to execute commands.\n\nSeverity: LOW\nCVSS Score: N/A\n\nAffected Products: ibm aix\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0627, https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0627\n\nPublished: 1992-03-01\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-0627"
+    },
+    {
+      "id": "CVE-1999-1121",
+      "title": "CVE-1999-1121: The default configuration for UUCP in AIX before 3.2 allows local users to gain root privileges.",
+      "description": "The default configuration for UUCP in AIX before 3.2 allows local users to gain root privileges.",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "ibm aix",
+      "references": [
+        "http://www.cert.org/advisories/CA-1992-06.html",
+        "http://www.osvdb.org/891",
+        "http://www.securityfocus.com/bid/38",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/554",
+        "http://www.cert.org/advisories/CA-1992-06.html"
+      ],
+      "published": "1992-03-19",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1121\n\nDescription: The default configuration for UUCP in AIX before 3.2 allows local users to gain root privileges.\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: ibm aix\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.cert.org/advisories/CA-1992-06.html, http://www.osvdb.org/891, http://www.securityfocus.com/bid/38, https://exchange.xforce.ibmcloud.com/vulnerabilities/554, http://www.cert.org/advisories/CA-1992-06.html\n\nPublished: 1992-03-19\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1121"
+    },
+    {
+      "id": "CVE-1999-0117",
+      "title": "CVE-1999-0117: AIX passwd allows local users to gain root access.",
+      "description": "AIX passwd allows local users to gain root access.",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "ibm aix",
+      "references": [
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0117",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0117"
+      ],
+      "published": "1992-03-31",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-0117\n\nDescription: AIX passwd allows local users to gain root access.\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: ibm aix\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0117, https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0117\n\nPublished: 1992-03-31\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-0117"
+    },
+    {
+      "id": "CVE-1999-1119",
+      "title": "CVE-1999-1119: FTP installation script anon.ftp in AIX insecurely configures anonymous FTP, which allows remote att...",
+      "description": "FTP installation script anon.ftp in AIX insecurely configures anonymous FTP, which allows remote attackers to execute arbitrary commands.",
+      "severity": "HIGH",
+      "cvss_score": 10.0,
+      "affected_products": "ibm aix",
+      "references": [
+        "http://www.cert.org/advisories/CA-1992-09.html",
+        "http://www.securityfocus.com/bid/41",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/3154",
+        "http://www.cert.org/advisories/CA-1992-09.html",
+        "http://www.securityfocus.com/bid/41"
+      ],
+      "published": "1992-04-27",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1119\n\nDescription: FTP installation script anon.ftp in AIX insecurely configures anonymous FTP, which allows remote attackers to execute arbitrary commands.\n\nSeverity: HIGH\nCVSS Score: 10.0\n\nAffected Products: ibm aix\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.cert.org/advisories/CA-1992-09.html, http://www.securityfocus.com/bid/41, https://exchange.xforce.ibmcloud.com/vulnerabilities/3154, http://www.cert.org/advisories/CA-1992-09.html, http://www.securityfocus.com/bid/41\n\nPublished: 1992-04-27\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1119"
+    },
+    {
+      "id": "CVE-1999-1142",
+      "title": "CVE-1999-1142: SunOS 4.1.2 and earlier allows local users to gain privileges via \"LD_*\" environmental variables to ...",
+      "description": "SunOS 4.1.2 and earlier allows local users to gain privileges via \"LD_*\" environmental variables to certain dynamically linked setuid or setgid programs such as (1) login, (2) su, or (3) sendmail, that change the real and effective user ids to the same user.",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "sun sunos",
+      "references": [
+        "http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/116",
+        "http://www.cert.org/advisories/CA-1992-11.html",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/3152",
+        "http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/116",
+        "http://www.cert.org/advisories/CA-1992-11.html"
+      ],
+      "published": "1992-05-27",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1142\n\nDescription: SunOS 4.1.2 and earlier allows local users to gain privileges via \"LD_*\" environmental variables to certain dynamically linked setuid or setgid programs such as (1) login, (2) su, or (3) sendmail, that change the real and effective user ids to the same user.\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: sun sunos\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/116, http://www.cert.org/advisories/CA-1992-11.html, https://exchange.xforce.ibmcloud.com/vulnerabilities/3152, http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/116, http://www.cert.org/advisories/CA-1992-11.html\n\nPublished: 1992-05-27\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1142"
+    },
+    {
+      "id": "CVE-1999-0168",
+      "title": "CVE-1999-0168: The portmapper may act as a proxy and redirect service requests from an attacker, making the request...",
+      "description": "The portmapper may act as a proxy and redirect service requests from an attacker, making the request appear to come from the local host, possibly bypassing authentication that would otherwise have taken place.  For example, NFS file systems could be mounted through the portmapper despite export restrictions.",
+      "severity": "HIGH",
+      "cvss_score": 7.5,
+      "affected_products": "sun sunos",
+      "references": [
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0168",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0168"
+      ],
+      "published": "1992-06-04",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-0168\n\nDescription: The portmapper may act as a proxy and redirect service requests from an attacker, making the request appear to come from the local host, possibly bypassing authentication that would otherwise have taken place.  For example, NFS file systems could be mounted through the portmapper despite export restrictions.\n\nSeverity: HIGH\nCVSS Score: 7.5\n\nAffected Products: sun sunos\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0168, https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0168\n\nPublished: 1992-06-04\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-0168"
+    },
+    {
+      "id": "CVE-1999-0214",
+      "title": "CVE-1999-0214: Denial of service by sending forged ICMP unreachable packets.",
+      "description": "Denial of service by sending forged ICMP unreachable packets.",
+      "severity": "HIGH",
+      "cvss_score": 10.0,
+      "affected_products": "sun sunos",
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-1999-0214",
+        "https://www.cve.org/CVERecord?id=CVE-1999-0214"
+      ],
+      "published": "1992-07-21",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-0214\n\nDescription: Denial of service by sending forged ICMP unreachable packets.\n\nSeverity: HIGH\nCVSS Score: 10.0\n\nAffected Products: sun sunos\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: https://www.cve.org/CVERecord?id=CVE-1999-0214, https://www.cve.org/CVERecord?id=CVE-1999-0214\n\nPublished: 1992-07-21\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-0214"
+    },
+    {
+      "id": "CVE-1999-1396",
+      "title": "CVE-1999-1396: Vulnerability in integer multiplication emulation code on SPARC architectures for SunOS 4.1 through ...",
+      "description": "Vulnerability in integer multiplication emulation code on SPARC architectures for SunOS 4.1 through 4.1.2 allows local users to gain root access or cause a denial of service (crash).",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "sun sunos",
+      "references": [
+        "http://www.cert.org/advisories/CA-1992-15.html",
+        "http://www.iss.net/security_center/static/7150.php",
+        "http://www.securityfocus.com/bid/49",
+        "http://www.cert.org/advisories/CA-1992-15.html",
+        "http://www.iss.net/security_center/static/7150.php"
+      ],
+      "published": "1992-07-21",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1396\n\nDescription: Vulnerability in integer multiplication emulation code on SPARC architectures for SunOS 4.1 through 4.1.2 allows local users to gain root access or cause a denial of service (crash).\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: sun sunos\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.cert.org/advisories/CA-1992-15.html, http://www.iss.net/security_center/static/7150.php, http://www.securityfocus.com/bid/49, http://www.cert.org/advisories/CA-1992-15.html, http://www.iss.net/security_center/static/7150.php\n\nPublished: 1992-07-21\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1396"
+    },
+    {
+      "id": "CVE-1999-1395",
+      "title": "CVE-1999-1395: Vulnerability in Monitor utility (SYS$SHARE:SPISHR.EXE) in VMS 5.0 through 5.4-2 allows local users ...",
+      "description": "Vulnerability in Monitor utility (SYS$SHARE:SPISHR.EXE) in VMS 5.0 through 5.4-2 allows local users to gain privileges.",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "dec dec_openvms",
+      "references": [
+        "http://osvdb.org/59332",
+        "http://www.cert.org/advisories/CA-1992-18.html",
+        "http://www.cert.org/advisories/CA-92.16.VMS.Monitor.vulnerability",
+        "http://www.iss.net/security_center/static/7136.php",
+        "http://www.securityfocus.com/bid/51"
+      ],
+      "published": "1992-11-17",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1395\n\nDescription: Vulnerability in Monitor utility (SYS$SHARE:SPISHR.EXE) in VMS 5.0 through 5.4-2 allows local users to gain privileges.\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: dec dec_openvms\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://osvdb.org/59332, http://www.cert.org/advisories/CA-1992-18.html, http://www.cert.org/advisories/CA-92.16.VMS.Monitor.vulnerability, http://www.iss.net/security_center/static/7136.php, http://www.securityfocus.com/bid/51\n\nPublished: 1992-11-17\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1395"
+    },
+    {
+      "id": "CVE-1999-1306",
+      "title": "CVE-1999-1306: Cisco IOS 9.1 and earlier does not properly handle extended IP access lists when the IP route cache ...",
+      "description": "Cisco IOS 9.1 and earlier does not properly handle extended IP access lists when the IP route cache is enabled and the \"established\" keyword is set, which could allow attackers to bypass filters.",
+      "severity": "HIGH",
+      "cvss_score": 7.5,
+      "affected_products": "cisco ios",
+      "references": [
+        "http://www.cert.org/advisories/CA-1992-20.html",
+        "http://www.cert.org/advisories/CA-1992-20.html"
+      ],
+      "published": "1992-12-10",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1306\n\nDescription: Cisco IOS 9.1 and earlier does not properly handle extended IP access lists when the IP route cache is enabled and the \"established\" keyword is set, which could allow attackers to bypass filters.\n\nSeverity: HIGH\nCVSS Score: 7.5\n\nAffected Products: cisco ios\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.cert.org/advisories/CA-1992-20.html, http://www.cert.org/advisories/CA-1992-20.html\n\nPublished: 1992-12-10\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1306"
+    },
+    {
+      "id": "CVE-1999-1466",
+      "title": "CVE-1999-1466: Vulnerability in Cisco routers versions 8.2 through 9.1 allows remote attackers to bypass access con...",
+      "description": "Vulnerability in Cisco routers versions 8.2 through 9.1 allows remote attackers to bypass access control lists when extended IP access lists are used on certain interfaces, the IP route cache is enabled, and the access list uses the \"established\" keyword.",
+      "severity": "HIGH",
+      "cvss_score": 7.5,
+      "affected_products": "cisco ios",
+      "references": [
+        "http://www.cert.org/advisories/CA-1992-20.html",
+        "http://www.securityfocus.com/bid/53",
+        "http://www.cert.org/advisories/CA-1992-20.html",
+        "http://www.securityfocus.com/bid/53"
+      ],
+      "published": "1992-12-10",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1466\n\nDescription: Vulnerability in Cisco routers versions 8.2 through 9.1 allows remote attackers to bypass access control lists when extended IP access lists are used on certain interfaces, the IP route cache is enabled, and the access list uses the \"established\" keyword.\n\nSeverity: HIGH\nCVSS Score: 7.5\n\nAffected Products: cisco ios\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.cert.org/advisories/CA-1992-20.html, http://www.securityfocus.com/bid/53, http://www.cert.org/advisories/CA-1992-20.html, http://www.securityfocus.com/bid/53\n\nPublished: 1992-12-10\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1466"
+    },
+    {
+      "id": "CVE-1999-1021",
+      "title": "CVE-1999-1021: NFS on SunOS 4.1 through 4.1.2 ignores the high order 16 bits in a 32 bit UID, which allows a local ...",
+      "description": "NFS on SunOS 4.1 through 4.1.2 ignores the high order 16 bits in a 32 bit UID, which allows a local user to gain root access if the lower 16 bits are set to 0, as fixed by the NFS jumbo patch upgrade.",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "sun sunos",
+      "references": [
+        "http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/117&type=0&nav=sec.sba",
+        "http://www.cert.org/advisories/CA-1992-15.html",
+        "http://www.securityfocus.com/bid/47",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/82",
+        "http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/117&type=0&nav=sec.sba"
+      ],
+      "published": "1992-12-30",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1021\n\nDescription: NFS on SunOS 4.1 through 4.1.2 ignores the high order 16 bits in a 32 bit UID, which allows a local user to gain root access if the lower 16 bits are set to 0, as fixed by the NFS jumbo patch upgrade.\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: sun sunos\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/117&type=0&nav=sec.sba, http://www.cert.org/advisories/CA-1992-15.html, http://www.securityfocus.com/bid/47, https://exchange.xforce.ibmcloud.com/vulnerabilities/82, http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/117&type=0&nav=sec.sba\n\nPublished: 1992-12-30\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1021"
+    },
+    {
+      "id": "CVE-1999-1056",
+      "title": "CVE-1999-1056: Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-1999-1395.  Reason: This candida...",
+      "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-1999-1395.  Reason: This candidate is a duplicate of CVE-1999-1395.  Notes: All CVE users should reference CVE-1999-1395 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage",
+      "severity": null,
+      "cvss_score": null,
+      "affected_products": "See vendor advisories",
+      "references": [],
+      "published": "1992-12-31",
+      "weaknesses": [],
+      "content": "CVE ID: CVE-1999-1056\n\nDescription: Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-1999-1395.  Reason: This candidate is a duplicate of CVE-1999-1395.  Notes: All CVE users should reference CVE-1999-1395 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage\n\nSeverity: Unknown\nCVSS Score: N/A\n\nAffected Products: See vendor advisories\n\nWeaknesses (CWE): Not specified\n\nReferences: See NVD for details\n\nPublished: 1992-12-31\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1056"
+    },
+    {
+      "id": "CVE-1999-0312",
+      "title": "CVE-1999-0312: HP ypbind allows attackers with root privileges to modify NIS data.",
+      "description": "HP ypbind allows attackers with root privileges to modify NIS data.",
+      "severity": "MEDIUM",
+      "cvss_score": 5.0,
+      "affected_products": "hp hp-ux",
+      "references": [
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0312",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0312"
+      ],
+      "published": "1993-01-13",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-0312\n\nDescription: HP ypbind allows attackers with root privileges to modify NIS data.\n\nSeverity: MEDIUM\nCVSS Score: 5.0\n\nAffected Products: hp hp-ux\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0312, https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0312\n\nPublished: 1993-01-13\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-0312"
+    },
+    {
+      "id": "CVE-1999-1507",
+      "title": "CVE-1999-1507: Sun SunOS 4.1 through 4.1.3 allows local attackers to gain root access via insecure permissions on f...",
+      "description": "Sun SunOS 4.1 through 4.1.3 allows local attackers to gain root access via insecure permissions on files and directories such as crash.",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "sun sunos",
+      "references": [
+        "http://www.cert.org/advisories/CA-1993-03.html",
+        "http://www.securityfocus.com/bid/59",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/521",
+        "http://www.cert.org/advisories/CA-1993-03.html",
+        "http://www.securityfocus.com/bid/59"
+      ],
+      "published": "1993-02-03",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1507\n\nDescription: Sun SunOS 4.1 through 4.1.3 allows local attackers to gain root access via insecure permissions on files and directories such as crash.\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: sun sunos\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.cert.org/advisories/CA-1993-03.html, http://www.securityfocus.com/bid/59, https://exchange.xforce.ibmcloud.com/vulnerabilities/521, http://www.cert.org/advisories/CA-1993-03.html, http://www.securityfocus.com/bid/59\n\nPublished: 1993-02-03\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1507"
+    },
+    {
+      "id": "CVE-1999-1218",
+      "title": "CVE-1999-1218: Vulnerability in finger in Commodore Amiga UNIX 2.1p2a and earlier allows local users to read arbitr...",
+      "description": "Vulnerability in finger in Commodore Amiga UNIX 2.1p2a and earlier allows local users to read arbitrary files.",
+      "severity": "LOW",
+      "cvss_score": 2.1,
+      "affected_products": "commodore amiga_unix",
+      "references": [
+        "http://www.cert.org/advisories/CA-1993-04.html",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/522",
+        "http://www.cert.org/advisories/CA-1993-04.html",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/522"
+      ],
+      "published": "1993-02-18",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1218\n\nDescription: Vulnerability in finger in Commodore Amiga UNIX 2.1p2a and earlier allows local users to read arbitrary files.\n\nSeverity: LOW\nCVSS Score: 2.1\n\nAffected Products: commodore amiga_unix\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.cert.org/advisories/CA-1993-04.html, https://exchange.xforce.ibmcloud.com/vulnerabilities/522, http://www.cert.org/advisories/CA-1993-04.html, https://exchange.xforce.ibmcloud.com/vulnerabilities/522\n\nPublished: 1993-02-18\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1218"
+    },
+    {
+      "id": "CVE-1999-1312",
+      "title": "CVE-1999-1312: Vulnerability in DEC OpenVMS VAX 5.5-2 through 5.0, and OpenVMS AXP 1.0, allows local users to gain ...",
+      "description": "Vulnerability in DEC OpenVMS VAX 5.5-2 through 5.0, and OpenVMS AXP 1.0, allows local users to gain system privileges.",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "dec dec_openvms_axp, dec dec_openvms_vax",
+      "references": [
+        "http://www.cert.org/advisories/CA-1993-05.html",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/7142",
+        "http://www.cert.org/advisories/CA-1993-05.html",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/7142"
+      ],
+      "published": "1993-02-24",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1312\n\nDescription: Vulnerability in DEC OpenVMS VAX 5.5-2 through 5.0, and OpenVMS AXP 1.0, allows local users to gain system privileges.\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: dec dec_openvms_axp, dec dec_openvms_vax\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.cert.org/advisories/CA-1993-05.html, https://exchange.xforce.ibmcloud.com/vulnerabilities/7142, http://www.cert.org/advisories/CA-1993-05.html, https://exchange.xforce.ibmcloud.com/vulnerabilities/7142\n\nPublished: 1993-02-24\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1312"
+    },
+    {
+      "id": "CVE-1999-1216",
+      "title": "CVE-1999-1216: Cisco routers 9.17 and earlier allow remote attackers to bypass security restrictions via certain IP...",
+      "description": "Cisco routers 9.17 and earlier allow remote attackers to bypass security restrictions via certain IP source routed packets that should normally be denied using the \"no ip source-route\" command.",
+      "severity": "HIGH",
+      "cvss_score": 7.5,
+      "affected_products": "cisco router",
+      "references": [
+        "http://ciac.llnl.gov/ciac/bulletins/d-15.shtml",
+        "http://www.cert.org/advisories/CA-1993-07.html",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/541",
+        "http://ciac.llnl.gov/ciac/bulletins/d-15.shtml",
+        "http://www.cert.org/advisories/CA-1993-07.html"
+      ],
+      "published": "1993-04-22",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1216\n\nDescription: Cisco routers 9.17 and earlier allow remote attackers to bypass security restrictions via certain IP source routed packets that should normally be denied using the \"no ip source-route\" command.\n\nSeverity: HIGH\nCVSS Score: 7.5\n\nAffected Products: cisco router\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://ciac.llnl.gov/ciac/bulletins/d-15.shtml, http://www.cert.org/advisories/CA-1993-07.html, https://exchange.xforce.ibmcloud.com/vulnerabilities/541, http://ciac.llnl.gov/ciac/bulletins/d-15.shtml, http://www.cert.org/advisories/CA-1993-07.html\n\nPublished: 1993-04-22\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1216"
+    },
+    {
+      "id": "CVE-1999-1162",
+      "title": "CVE-1999-1162: Vulnerability in passwd in SCO UNIX 4.0 and earlier allows attackers to cause a denial of service by...",
+      "description": "Vulnerability in passwd in SCO UNIX 4.0 and earlier allows attackers to cause a denial of service by preventing users from being able to log into the system.",
+      "severity": "MEDIUM",
+      "cvss_score": 6.4,
+      "affected_products": "sco open_desktop, sco unix",
+      "references": [
+        "http://www.cert.org/advisories/CA-1993-08.html",
+        "http://www.iss.net/security_center/static/542.php",
+        "http://www.cert.org/advisories/CA-1993-08.html",
+        "http://www.iss.net/security_center/static/542.php"
+      ],
+      "published": "1993-05-24",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1162\n\nDescription: Vulnerability in passwd in SCO UNIX 4.0 and earlier allows attackers to cause a denial of service by preventing users from being able to log into the system.\n\nSeverity: MEDIUM\nCVSS Score: 6.4\n\nAffected Products: sco open_desktop, sco unix\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.cert.org/advisories/CA-1993-08.html, http://www.iss.net/security_center/static/542.php, http://www.cert.org/advisories/CA-1993-08.html, http://www.iss.net/security_center/static/542.php\n\nPublished: 1993-05-24\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1162"
+    },
+    {
+      "id": "CVE-1999-0124",
+      "title": "CVE-1999-0124: Vulnerabilities in UMN gopher and gopher+ versions 1.12 and 2.0x allow an intruder to read any files...",
+      "description": "Vulnerabilities in UMN gopher and gopher+ versions 1.12 and 2.0x allow an intruder to read any files that can be accessed by the gopher daemon.",
+      "severity": "HIGH",
+      "cvss_score": 10.0,
+      "affected_products": "university_of_minnesota gopherd",
+      "references": [
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0124",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0124"
+      ],
+      "published": "1993-08-09",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-0124\n\nDescription: Vulnerabilities in UMN gopher and gopher+ versions 1.12 and 2.0x allow an intruder to read any files that can be accessed by the gopher daemon.\n\nSeverity: HIGH\nCVSS Score: 10.0\n\nAffected Products: university_of_minnesota gopherd\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0124, https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0124\n\nPublished: 1993-08-09\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-0124"
+    },
+    {
+      "id": "CVE-1999-1215",
+      "title": "CVE-1999-1215: LOGIN.EXE program in Novell Netware 4.0 and 4.01 temporarily writes user name and password informati...",
+      "description": "LOGIN.EXE program in Novell Netware 4.0 and 4.01 temporarily writes user name and password information to disk, which could allow local users to gain privileges.",
+      "severity": "MEDIUM",
+      "cvss_score": 4.6,
+      "affected_products": "novell netware",
+      "references": [
+        "http://ciac.llnl.gov/ciac/bulletins/d-21.shtml",
+        "http://www.cert.org/advisories/CA-1993-12.html",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/545",
+        "http://ciac.llnl.gov/ciac/bulletins/d-21.shtml",
+        "http://www.cert.org/advisories/CA-1993-12.html"
+      ],
+      "published": "1993-09-16",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1215\n\nDescription: LOGIN.EXE program in Novell Netware 4.0 and 4.01 temporarily writes user name and password information to disk, which could allow local users to gain privileges.\n\nSeverity: MEDIUM\nCVSS Score: 4.6\n\nAffected Products: novell netware\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://ciac.llnl.gov/ciac/bulletins/d-21.shtml, http://www.cert.org/advisories/CA-1993-12.html, https://exchange.xforce.ibmcloud.com/vulnerabilities/545, http://ciac.llnl.gov/ciac/bulletins/d-21.shtml, http://www.cert.org/advisories/CA-1993-12.html\n\nPublished: 1993-09-16\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1215"
+    },
+    {
+      "id": "CVE-1999-1138",
+      "title": "CVE-1999-1138: SCO UNIX System V/386 Release 3.2, and other SCO products, installs the home directories (1) /tmp fo...",
+      "description": "SCO UNIX System V/386 Release 3.2, and other SCO products, installs the home directories (1) /tmp for the dos user, and (2) /usr/tmp for the asg user, which allows other users to gain access to those accounts since /tmp and /usr/tmp are world-writable.",
+      "severity": "HIGH",
+      "cvss_score": 10.0,
+      "affected_products": "sco open_desktop_lite, sco open_desktop, sco unix, sco openserver",
+      "references": [
+        "http://www.cert.org/advisories/CA-1993-13.html",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/546",
+        "http://www.cert.org/advisories/CA-1993-13.html",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/546"
+      ],
+      "published": "1993-09-17",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1138\n\nDescription: SCO UNIX System V/386 Release 3.2, and other SCO products, installs the home directories (1) /tmp for the dos user, and (2) /usr/tmp for the asg user, which allows other users to gain access to those accounts since /tmp and /usr/tmp are world-writable.\n\nSeverity: HIGH\nCVSS Score: 10.0\n\nAffected Products: sco open_desktop_lite, sco open_desktop, sco unix, sco openserver\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.cert.org/advisories/CA-1993-13.html, https://exchange.xforce.ibmcloud.com/vulnerabilities/546, http://www.cert.org/advisories/CA-1993-13.html, https://exchange.xforce.ibmcloud.com/vulnerabilities/546\n\nPublished: 1993-09-17\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1138"
+    },
+    {
+      "id": "CVE-1999-1318",
+      "title": "CVE-1999-1318: /usr/5bin/su in SunOS 4.1.3 and earlier uses a search path that includes the current working directo...",
+      "description": "/usr/5bin/su in SunOS 4.1.3 and earlier uses a search path that includes the current working directory (.), which allows local users to gain privileges via Trojan horse programs.",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "sun sunos",
+      "references": [
+        "http://sunsolve.sun.com/pub-cgi/retrieve.pl?doc=fpatches%2F100630&zone_32=112193%2A%20",
+        "http://www.iss.net/security_center/static/7480.php",
+        "http://sunsolve.sun.com/pub-cgi/retrieve.pl?doc=fpatches%2F100630&zone_32=112193%2A%20",
+        "http://www.iss.net/security_center/static/7480.php"
+      ],
+      "published": "1993-09-17",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1318\n\nDescription: /usr/5bin/su in SunOS 4.1.3 and earlier uses a search path that includes the current working directory (.), which allows local users to gain privileges via Trojan horse programs.\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: sun sunos\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://sunsolve.sun.com/pub-cgi/retrieve.pl?doc=fpatches%2F100630&zone_32=112193%2A%20, http://www.iss.net/security_center/static/7480.php, http://sunsolve.sun.com/pub-cgi/retrieve.pl?doc=fpatches%2F100630&zone_32=112193%2A%20, http://www.iss.net/security_center/static/7480.php\n\nPublished: 1993-09-17\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1318"
+    },
+    {
+      "id": "CVE-1999-0145",
+      "title": "CVE-1999-0145: Sendmail WIZ command enabled, allowing root access.",
+      "description": "Sendmail WIZ command enabled, allowing root access.",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "eric_allman sendmail",
+      "references": [
+        "http://seclists.org/fulldisclosure/2019/Jun/16",
+        "http://www.alw.nih.gov/Security/Docs/admin-guide-to-cracking.101.html",
+        "http://www.cert.org/advisories/CA-1990-11.html",
+        "http://www.cert.org/advisories/CA-1993-14.html",
+        "http://www.openwall.com/lists/oss-security/2019/06/05/4"
+      ],
+      "published": "1993-09-30",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-0145\n\nDescription: Sendmail WIZ command enabled, allowing root access.\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: eric_allman sendmail\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://seclists.org/fulldisclosure/2019/Jun/16, http://www.alw.nih.gov/Security/Docs/admin-guide-to-cracking.101.html, http://www.cert.org/advisories/CA-1990-11.html, http://www.cert.org/advisories/CA-1993-14.html, http://www.openwall.com/lists/oss-security/2019/06/05/4\n\nPublished: 1993-09-30\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-0145"
+    },
+    {
+      "id": "CVE-1999-1137",
+      "title": "CVE-1999-1137: The permissions for the /dev/audio device on Solaris 2.2 and earlier, and SunOS 4.1.x, allow any loc...",
+      "description": "The permissions for the /dev/audio device on Solaris 2.2 and earlier, and SunOS 4.1.x, allow any local user to read from the device, which could be used by an attacker to monitor conversations happening near a machine that has a microphone.",
+      "severity": "LOW",
+      "cvss_score": 2.1,
+      "affected_products": "sun solaris, sun sunos",
+      "references": [
+        "http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/122&type=0&nav=sec.sba",
+        "http://www.ciac.org/ciac/bulletins/e-01.shtml",
+        "http://www.osvdb.org/6436",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/549",
+        "http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/122&type=0&nav=sec.sba"
+      ],
+      "published": "1993-10-01",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1137\n\nDescription: The permissions for the /dev/audio device on Solaris 2.2 and earlier, and SunOS 4.1.x, allow any local user to read from the device, which could be used by an attacker to monitor conversations happening near a machine that has a microphone.\n\nSeverity: LOW\nCVSS Score: 2.1\n\nAffected Products: sun solaris, sun sunos\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/122&type=0&nav=sec.sba, http://www.ciac.org/ciac/bulletins/e-01.shtml, http://www.osvdb.org/6436, https://exchange.xforce.ibmcloud.com/vulnerabilities/549, http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/122&type=0&nav=sec.sba\n\nPublished: 1993-10-01\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1137"
+    },
+    {
+      "id": "CVE-1999-0334",
+      "title": "CVE-1999-0334: In Solaris 2.2 and 2.3, when fsck fails on startup, it allows a local user with physical access to o...",
+      "description": "In Solaris 2.2 and 2.3, when fsck fails on startup, it allows a local user with physical access to obtain root access.",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "sun solaris, sun sunos",
+      "references": [
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0334",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0334"
+      ],
+      "published": "1993-12-16",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-0334\n\nDescription: In Solaris 2.2 and 2.3, when fsck fails on startup, it allows a local user with physical access to obtain root access.\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: sun solaris, sun sunos\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0334, https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0334\n\nPublished: 1993-12-16\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-0334"
+    },
+    {
+      "id": "CVE-1999-0181",
+      "title": "CVE-1999-0181: The wall daemon can be used for denial of service, social engineering attacks, or to execute remote ...",
+      "description": "The wall daemon can be used for denial of service, social engineering attacks, or to execute remote commands.",
+      "severity": "MEDIUM",
+      "cvss_score": 6.8,
+      "affected_products": "rpc.walld rpc.walld",
+      "references": [
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0181",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0181"
+      ],
+      "published": "1994-01-01",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-0181\n\nDescription: The wall daemon can be used for denial of service, social engineering attacks, or to execute remote commands.\n\nSeverity: MEDIUM\nCVSS Score: 6.8\n\nAffected Products: rpc.walld rpc.walld\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0181, https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0181\n\nPublished: 1994-01-01\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-0181"
+    },
+    {
+      "id": "CVE-1999-1242",
+      "title": "CVE-1999-1242: Vulnerability in subnetconfig in HP-UX 9.01 and 9.0 allows local users to gain privileges.",
+      "description": "Vulnerability in subnetconfig in HP-UX 9.01 and 9.0 allows local users to gain privileges.",
+      "severity": "MEDIUM",
+      "cvss_score": 4.6,
+      "affected_products": "hp hp-ux",
+      "references": [
+        "http://packetstormsecurity.org/advisories/hpalert/003",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/2162",
+        "http://packetstormsecurity.org/advisories/hpalert/003",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/2162"
+      ],
+      "published": "1994-02-07",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1242\n\nDescription: Vulnerability in subnetconfig in HP-UX 9.01 and 9.0 allows local users to gain privileges.\n\nSeverity: MEDIUM\nCVSS Score: 4.6\n\nAffected Products: hp hp-ux\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://packetstormsecurity.org/advisories/hpalert/003, https://exchange.xforce.ibmcloud.com/vulnerabilities/2162, http://packetstormsecurity.org/advisories/hpalert/003, https://exchange.xforce.ibmcloud.com/vulnerabilities/2162\n\nPublished: 1994-02-07\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1242"
+    },
+    {
+      "id": "CVE-1999-0211",
+      "title": "CVE-1999-0211: Extra long export lists over 256 characters in some mount daemons allows NFS directories to be mount...",
+      "description": "Extra long export lists over 256 characters in some mount daemons allows NFS directories to be mounted by anyone.",
+      "severity": "MEDIUM",
+      "cvss_score": 5.0,
+      "affected_products": "sun sunos",
+      "references": [
+        "http://www.securityfocus.com/bid/24",
+        "https://vuls.cert.org/confluence/pages/viewpage.action?pageId=96665790",
+        "https://vuls.cert.org/confluence/pages/viewpage.action?pageId=97124517",
+        "https://vuls.cert.org/confluence/pages/viewpage.action?pageId=97124527",
+        "http://www.securityfocus.com/bid/24"
+      ],
+      "published": "1994-02-14",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-0211\n\nDescription: Extra long export lists over 256 characters in some mount daemons allows NFS directories to be mounted by anyone.\n\nSeverity: MEDIUM\nCVSS Score: 5.0\n\nAffected Products: sun sunos\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.securityfocus.com/bid/24, https://vuls.cert.org/confluence/pages/viewpage.action?pageId=96665790, https://vuls.cert.org/confluence/pages/viewpage.action?pageId=97124517, https://vuls.cert.org/confluence/pages/viewpage.action?pageId=97124527, http://www.securityfocus.com/bid/24\n\nPublished: 1994-02-14\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-0211"
+    },
+    {
+      "id": "CVE-1999-0338",
+      "title": "CVE-1999-0338: AIX Licensed Program Product performance tools allow local users to gain root access.",
+      "description": "AIX Licensed Program Product performance tools allow local users to gain root access.",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "ibm aix",
+      "references": [
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0338",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0338"
+      ],
+      "published": "1994-02-24",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-0338\n\nDescription: AIX Licensed Program Product performance tools allow local users to gain root access.\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: ibm aix\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0338, https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0338\n\nPublished: 1994-02-24\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-0338"
+    },
+    {
+      "id": "CVE-1999-0120",
+      "title": "CVE-1999-0120: Sun/Solaris utmp file allows local users to gain root access if it is writable by users other than r...",
+      "description": "Sun/Solaris utmp file allows local users to gain root access if it is writable by users other than root.",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "sun sunos",
+      "references": [
+        "http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/126",
+        "http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/126"
+      ],
+      "published": "1994-03-21",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-0120\n\nDescription: Sun/Solaris utmp file allows local users to gain root access if it is writable by users other than root.\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: sun sunos\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/126, http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&doc=secbull/126\n\nPublished: 1994-03-21\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-0120"
+    },
+    {
+      "id": "CVE-1999-1135",
+      "title": "CVE-1999-1135: Vulnerability in VUE 3.0 in HP 9.x allows local users to gain root privileges, as fixed by PHSS_4994...",
+      "description": "Vulnerability in VUE 3.0 in HP 9.x allows local users to gain root privileges, as fixed by PHSS_4994 and PHSS_5438.",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "hp hp-ux",
+      "references": [
+        "http://packetstorm.securify.com/advisories/hpalert/027",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/2284",
+        "http://packetstorm.securify.com/advisories/hpalert/027",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/2284"
+      ],
+      "published": "1994-04-20",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1135\n\nDescription: Vulnerability in VUE 3.0 in HP 9.x allows local users to gain root privileges, as fixed by PHSS_4994 and PHSS_5438.\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: hp hp-ux\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://packetstorm.securify.com/advisories/hpalert/027, https://exchange.xforce.ibmcloud.com/vulnerabilities/2284, http://packetstorm.securify.com/advisories/hpalert/027, https://exchange.xforce.ibmcloud.com/vulnerabilities/2284\n\nPublished: 1994-04-20\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1135"
+    },
+    {
+      "id": "CVE-1999-1146",
+      "title": "CVE-1999-1146: Vulnerability in Glance and gpm programs in GlancePlus for HP-UX 9.x and earlier allows local users ...",
+      "description": "Vulnerability in Glance and gpm programs in GlancePlus for HP-UX 9.x and earlier allows local users to access arbitrary files and gain privileges.",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "hp hp-ux",
+      "references": [
+        "http://www.securityfocus.com/advisories/1555",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/2060",
+        "http://www.securityfocus.com/advisories/1555",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/2060"
+      ],
+      "published": "1994-05-04",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1146\n\nDescription: Vulnerability in Glance and gpm programs in GlancePlus for HP-UX 9.x and earlier allows local users to access arbitrary files and gain privileges.\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: hp hp-ux\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.securityfocus.com/advisories/1555, https://exchange.xforce.ibmcloud.com/vulnerabilities/2060, http://www.securityfocus.com/advisories/1555, https://exchange.xforce.ibmcloud.com/vulnerabilities/2060\n\nPublished: 1994-05-04\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1146"
+    },
+    {
+      "id": "CVE-1999-1388",
+      "title": "CVE-1999-1388: passwd in SunOS 4.1.x allows local users to overwrite arbitrary files via a symlink attack and the -...",
+      "description": "passwd in SunOS 4.1.x allows local users to overwrite arbitrary files via a symlink attack and the -F command line argument.",
+      "severity": "MEDIUM",
+      "cvss_score": 6.2,
+      "affected_products": "sun sunos",
+      "references": [
+        "http://www.dataguard.no/bugtraq/1994_4/0755.html",
+        "http://www2.dataguard.no/bugtraq/1994_2/0197.html",
+        "http://www2.dataguard.no/bugtraq/1994_2/0207.html",
+        "http://www.dataguard.no/bugtraq/1994_4/0755.html",
+        "http://www2.dataguard.no/bugtraq/1994_2/0197.html"
+      ],
+      "published": "1994-05-13",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1388\n\nDescription: passwd in SunOS 4.1.x allows local users to overwrite arbitrary files via a symlink attack and the -F command line argument.\n\nSeverity: MEDIUM\nCVSS Score: 6.2\n\nAffected Products: sun sunos\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.dataguard.no/bugtraq/1994_4/0755.html, http://www2.dataguard.no/bugtraq/1994_2/0197.html, http://www2.dataguard.no/bugtraq/1994_2/0207.html, http://www.dataguard.no/bugtraq/1994_4/0755.html, http://www2.dataguard.no/bugtraq/1994_2/0197.html\n\nPublished: 1994-05-13\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1388"
+    },
+    {
+      "id": "CVE-1999-1134",
+      "title": "CVE-1999-1134: Vulnerability in Vue 3.0 in HP 9.x allows local users to gain root privileges, as fixed by PHSS_4038...",
+      "description": "Vulnerability in Vue 3.0 in HP 9.x allows local users to gain root privileges, as fixed by PHSS_4038, PHSS_4055, and PHSS_4066.",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "hp hp-ux",
+      "references": [
+        "http://ciac.llnl.gov/ciac/bulletins/e-23.shtml",
+        "http://packetstorm.securify.com/advisories/hpalert/008",
+        "http://www.iss.net/security_center/static/2284.php",
+        "http://ciac.llnl.gov/ciac/bulletins/e-23.shtml",
+        "http://packetstorm.securify.com/advisories/hpalert/008"
+      ],
+      "published": "1994-05-18",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1134\n\nDescription: Vulnerability in Vue 3.0 in HP 9.x allows local users to gain root privileges, as fixed by PHSS_4038, PHSS_4055, and PHSS_4066.\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: hp hp-ux\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://ciac.llnl.gov/ciac/bulletins/e-23.shtml, http://packetstorm.securify.com/advisories/hpalert/008, http://www.iss.net/security_center/static/2284.php, http://ciac.llnl.gov/ciac/bulletins/e-23.shtml, http://packetstorm.securify.com/advisories/hpalert/008\n\nPublished: 1994-05-18\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1134"
+    },
+    {
+      "id": "CVE-1999-0113",
+      "title": "CVE-1999-0113: Some implementations of rlogin allow root access if given a -froot parameter.",
+      "description": "Some implementations of rlogin allow root access if given a -froot parameter.",
+      "severity": "HIGH",
+      "cvss_score": 10.0,
+      "affected_products": "ibm aix",
+      "references": [
+        "http://www.securityfocus.com/bid/458",
+        "http://www.securityfocus.com/bid/458"
+      ],
+      "published": "1994-05-23",
+      "weaknesses": [
+        "CWE-88"
+      ],
+      "content": "CVE ID: CVE-1999-0113\n\nDescription: Some implementations of rlogin allow root access if given a -froot parameter.\n\nSeverity: HIGH\nCVSS Score: 10.0\n\nAffected Products: ibm aix\n\nWeaknesses (CWE): CWE-88\n\nReferences: http://www.securityfocus.com/bid/458, http://www.securityfocus.com/bid/458\n\nPublished: 1994-05-23\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-0113"
+    },
+    {
+      "id": "CVE-1999-0423",
+      "title": "CVE-1999-0423: Vulnerability in hpterm on HP-UX 10.20 allows local users to gain additional privileges.",
+      "description": "Vulnerability in hpterm on HP-UX 10.20 allows local users to gain additional privileges.",
+      "severity": "MEDIUM",
+      "cvss_score": 4.6,
+      "affected_products": "hp hp-ux",
+      "references": [
+        "http://www1.itrc.hp.com/service/cki/docDisplay.do?docId=HPSBUX9903-093",
+        "http://www1.itrc.hp.com/service/cki/docDisplay.do?docId=HPSBUX9903-093"
+      ],
+      "published": "1994-06-01",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-0423\n\nDescription: Vulnerability in hpterm on HP-UX 10.20 allows local users to gain additional privileges.\n\nSeverity: MEDIUM\nCVSS Score: 4.6\n\nAffected Products: hp hp-ux\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www1.itrc.hp.com/service/cki/docDisplay.do?docId=HPSBUX9903-093, http://www1.itrc.hp.com/service/cki/docDisplay.do?docId=HPSBUX9903-093\n\nPublished: 1994-06-01\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-0423"
+    },
+    {
+      "id": "CVE-1999-0337",
+      "title": "CVE-1999-0337: AIX batch queue (bsh) allows local and remote users to gain additional privileges when network print...",
+      "description": "AIX batch queue (bsh) allows local and remote users to gain additional privileges when network printing is enabled.",
+      "severity": "HIGH",
+      "cvss_score": 7.5,
+      "affected_products": "ibm aix",
+      "references": [
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0337",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0337"
+      ],
+      "published": "1994-06-03",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-0337\n\nDescription: AIX batch queue (bsh) allows local and remote users to gain additional privileges when network printing is enabled.\n\nSeverity: HIGH\nCVSS Score: 7.5\n\nAffected Products: ibm aix\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0337, https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0337\n\nPublished: 1994-06-03\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-0337"
+    },
+    {
+      "id": "CVE-1999-0207",
+      "title": "CVE-1999-0207: Remote attacker can execute commands through Majordomo using the Reply-To field and a \"lists\" comman...",
+      "description": "Remote attacker can execute commands through Majordomo using the Reply-To field and a \"lists\" command.",
+      "severity": "HIGH",
+      "cvss_score": 7.5,
+      "affected_products": "great_circle_associates majordomo",
+      "references": [
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0207",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0207"
+      ],
+      "published": "1994-06-09",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-0207\n\nDescription: Remote attacker can execute commands through Majordomo using the Reply-To field and a \"lists\" command.\n\nSeverity: HIGH\nCVSS Score: 7.5\n\nAffected Products: great_circle_associates majordomo\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0207, https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0207\n\nPublished: 1994-06-09\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-0207"
+    },
+    {
+      "id": "CVE-1999-1239",
+      "title": "CVE-1999-1239: HP-UX 9.x does not properly enable the Xauthority mechanism in certain conditions, which could allow...",
+      "description": "HP-UX 9.x does not properly enable the Xauthority mechanism in certain conditions, which could allow local users to access the X display even when they have not explicitly been authorized to do so.",
+      "severity": "MEDIUM",
+      "cvss_score": 4.6,
+      "affected_products": "hp hp-ux",
+      "references": [
+        "http://www.securityfocus.com/advisories/1559",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/2261",
+        "http://www.securityfocus.com/advisories/1559",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/2261"
+      ],
+      "published": "1994-07-13",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1239\n\nDescription: HP-UX 9.x does not properly enable the Xauthority mechanism in certain conditions, which could allow local users to access the X display even when they have not explicitly been authorized to do so.\n\nSeverity: MEDIUM\nCVSS Score: 4.6\n\nAffected Products: hp hp-ux\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.securityfocus.com/advisories/1559, https://exchange.xforce.ibmcloud.com/vulnerabilities/2261, http://www.securityfocus.com/advisories/1559, https://exchange.xforce.ibmcloud.com/vulnerabilities/2261\n\nPublished: 1994-07-13\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1239"
+    },
+    {
+      "id": "CVE-1999-1552",
+      "title": "CVE-1999-1552: dpsexec (DPS Server) when running under XDM in IBM AIX 3.2.5 and earlier does not properly check pri...",
+      "description": "dpsexec (DPS Server) when running under XDM in IBM AIX 3.2.5 and earlier does not properly check privileges, which allows local users to overwrite arbitrary files and gain privileges.",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "ibm aix",
+      "references": [
+        "http://lists.insecure.org/lists/bugtraq/1994/Jul/0038.html",
+        "http://www.securityfocus.com/bid/358",
+        "http://lists.insecure.org/lists/bugtraq/1994/Jul/0038.html",
+        "http://www.securityfocus.com/bid/358"
+      ],
+      "published": "1994-07-20",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1552\n\nDescription: dpsexec (DPS Server) when running under XDM in IBM AIX 3.2.5 and earlier does not properly check privileges, which allows local users to overwrite arbitrary files and gain privileges.\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: ibm aix\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://lists.insecure.org/lists/bugtraq/1994/Jul/0038.html, http://www.securityfocus.com/bid/358, http://lists.insecure.org/lists/bugtraq/1994/Jul/0038.html, http://www.securityfocus.com/bid/358\n\nPublished: 1994-07-20\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1552"
+    },
+    {
+      "id": "CVE-1999-1494",
+      "title": "CVE-1999-1494: colorview in Silicon Graphics IRIX 5.1, 5.2, and 6.0 allows local attackers to read arbitrary files ...",
+      "description": "colorview in Silicon Graphics IRIX 5.1, 5.2, and 6.0 allows local attackers to read arbitrary files via the -text argument.",
+      "severity": "LOW",
+      "cvss_score": 2.1,
+      "affected_products": "sgi irix",
+      "references": [
+        "ftp://patches.sgi.com/support/free/security/advisories/19950209-01-P",
+        "http://www.securityfocus.com/archive/1/675",
+        "http://www.securityfocus.com/bid/336",
+        "http://www.tryc.on.ca/archives/bugtraq/1995_1/0614.html",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/2112"
+      ],
+      "published": "1994-08-09",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1494\n\nDescription: colorview in Silicon Graphics IRIX 5.1, 5.2, and 6.0 allows local attackers to read arbitrary files via the -text argument.\n\nSeverity: LOW\nCVSS Score: 2.1\n\nAffected Products: sgi irix\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: ftp://patches.sgi.com/support/free/security/advisories/19950209-01-P, http://www.securityfocus.com/archive/1/675, http://www.securityfocus.com/bid/336, http://www.tryc.on.ca/archives/bugtraq/1995_1/0614.html, https://exchange.xforce.ibmcloud.com/vulnerabilities/2112\n\nPublished: 1994-08-09\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1494"
+    },
+    {
+      "id": "CVE-1999-1219",
+      "title": "CVE-1999-1219: Vulnerability in sgihelp in the SGI help system and print manager in IRIX 5.2 and earlier allows loc...",
+      "description": "Vulnerability in sgihelp in the SGI help system and print manager in IRIX 5.2 and earlier allows local users to gain root privileges, possibly through the clogin command.",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "sgi irix",
+      "references": [
+        "http://ciac.llnl.gov/ciac/bulletins/e-33.shtml",
+        "http://www.cert.org/advisories/CA-1994-13.html",
+        "http://www.securityfocus.com/bid/468",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/511",
+        "http://ciac.llnl.gov/ciac/bulletins/e-33.shtml"
+      ],
+      "published": "1994-08-11",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1219\n\nDescription: Vulnerability in sgihelp in the SGI help system and print manager in IRIX 5.2 and earlier allows local users to gain root privileges, possibly through the clogin command.\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: sgi irix\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://ciac.llnl.gov/ciac/bulletins/e-33.shtml, http://www.cert.org/advisories/CA-1994-13.html, http://www.securityfocus.com/bid/468, https://exchange.xforce.ibmcloud.com/vulnerabilities/511, http://ciac.llnl.gov/ciac/bulletins/e-33.shtml\n\nPublished: 1994-08-11\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1219"
+    },
+    {
+      "id": "CVE-1999-1238",
+      "title": "CVE-1999-1238: Vulnerability in CORE-DIAG fileset in HP message catalog in HP-UX 9.05 and earlier allows local user...",
+      "description": "Vulnerability in CORE-DIAG fileset in HP message catalog in HP-UX 9.05 and earlier allows local users to gain privileges.",
+      "severity": "MEDIUM",
+      "cvss_score": 4.6,
+      "affected_products": "hp hp-ux",
+      "references": [
+        "http://www.securityfocus.com/advisories/1531",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/2262",
+        "http://www.securityfocus.com/advisories/1531",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/2262"
+      ],
+      "published": "1994-09-21",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1238\n\nDescription: Vulnerability in CORE-DIAG fileset in HP message catalog in HP-UX 9.05 and earlier allows local users to gain privileges.\n\nSeverity: MEDIUM\nCVSS Score: 4.6\n\nAffected Products: hp hp-ux\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.securityfocus.com/advisories/1531, https://exchange.xforce.ibmcloud.com/vulnerabilities/2262, http://www.securityfocus.com/advisories/1531, https://exchange.xforce.ibmcloud.com/vulnerabilities/2262\n\nPublished: 1994-09-21\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1238"
+    },
+    {
+      "id": "CVE-1999-1022",
+      "title": "CVE-1999-1022: serial_ports administrative program in IRIX 4.x and 5.x trusts the user's PATH environmental variabl...",
+      "description": "serial_ports administrative program in IRIX 4.x and 5.x trusts the user's PATH environmental variable to find and execute the ls program, which allows local users to gain root privileges via a Trojan horse ls program.",
+      "severity": "MEDIUM",
+      "cvss_score": 6.2,
+      "affected_products": "sgi irix",
+      "references": [
+        "http://www.securityfocus.com/archive/1/930",
+        "http://www.securityfocus.com/bid/464",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/2111",
+        "http://www.securityfocus.com/archive/1/930",
+        "http://www.securityfocus.com/bid/464"
+      ],
+      "published": "1994-10-02",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1022\n\nDescription: serial_ports administrative program in IRIX 4.x and 5.x trusts the user's PATH environmental variable to find and execute the ls program, which allows local users to gain root privileges via a Trojan horse ls program.\n\nSeverity: MEDIUM\nCVSS Score: 6.2\n\nAffected Products: sgi irix\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.securityfocus.com/archive/1/930, http://www.securityfocus.com/bid/464, https://exchange.xforce.ibmcloud.com/vulnerabilities/2111, http://www.securityfocus.com/archive/1/930, http://www.securityfocus.com/bid/464\n\nPublished: 1994-10-02\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1022"
+    },
+    {
+      "id": "CVE-1999-1310",
+      "title": "CVE-1999-1310: Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-1999-1022.  Reason: This candida...",
+      "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-1999-1022.  Reason: This candidate is a duplicate of CVE-1999-1022.  Notes: All CVE users should reference CVE-1999-1022 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage",
+      "severity": null,
+      "cvss_score": null,
+      "affected_products": "See vendor advisories",
+      "references": [],
+      "published": "1994-11-04",
+      "weaknesses": [],
+      "content": "CVE ID: CVE-1999-1310\n\nDescription: Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-1999-1022.  Reason: This candidate is a duplicate of CVE-1999-1022.  Notes: All CVE users should reference CVE-1999-1022 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage\n\nSeverity: Unknown\nCVSS Score: N/A\n\nAffected Products: See vendor advisories\n\nWeaknesses (CWE): Not specified\n\nReferences: See NVD for details\n\nPublished: 1994-11-04\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1310"
+    },
+    {
+      "id": "CVE-1999-1248",
+      "title": "CVE-1999-1248: Vulnerability in Support Watch (aka SupportWatch) in HP-UX 8.0 through 9.0 allows local users to gai...",
+      "description": "Vulnerability in Support Watch (aka SupportWatch) in HP-UX 8.0 through 9.0 allows local users to gain privileges.",
+      "severity": "MEDIUM",
+      "cvss_score": 4.6,
+      "affected_products": "hp hp-ux",
+      "references": [
+        "http://packetstormsecurity.org/advisories/hpalert/019",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/2058",
+        "http://packetstormsecurity.org/advisories/hpalert/019",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/2058"
+      ],
+      "published": "1994-11-30",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1248\n\nDescription: Vulnerability in Support Watch (aka SupportWatch) in HP-UX 8.0 through 9.0 allows local users to gain privileges.\n\nSeverity: MEDIUM\nCVSS Score: 4.6\n\nAffected Products: hp hp-ux\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://packetstormsecurity.org/advisories/hpalert/019, https://exchange.xforce.ibmcloud.com/vulnerabilities/2058, http://packetstormsecurity.org/advisories/hpalert/019, https://exchange.xforce.ibmcloud.com/vulnerabilities/2058\n\nPublished: 1994-11-30\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1248"
+    },
+    {
+      "id": "CVE-1999-1302",
+      "title": "CVE-1999-1302: Unspecified vulnerability in pt_chmod in SCO UNIX 4.2 and earlier allows local users to gain root ac...",
+      "description": "Unspecified vulnerability in pt_chmod in SCO UNIX 4.2 and earlier allows local users to gain root access.",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "sco openserver_network_system, sco open_desktop, sco openserver_enterprise_system, sco open_desktop_lite, sco unix",
+      "references": [
+        "http://ciac.llnl.gov/ciac/bulletins/f-05.shtml",
+        "http://ciac.llnl.gov/ciac/bulletins/f-05.shtml",
+        "http://ftp.cerias.purdue.edu/pub/advisories/cert/cert_bulletins/VB-94:01.sco",
+        "http://www.osvdb.org/8797",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/7586"
+      ],
+      "published": "1994-11-30",
+      "weaknesses": [
+        "NVD-CWE-noinfo"
+      ],
+      "content": "CVE ID: CVE-1999-1302\n\nDescription: Unspecified vulnerability in pt_chmod in SCO UNIX 4.2 and earlier allows local users to gain root access.\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: sco openserver_network_system, sco open_desktop, sco openserver_enterprise_system, sco open_desktop_lite, sco unix\n\nWeaknesses (CWE): NVD-CWE-noinfo\n\nReferences: http://ciac.llnl.gov/ciac/bulletins/f-05.shtml, http://ciac.llnl.gov/ciac/bulletins/f-05.shtml, http://ftp.cerias.purdue.edu/pub/advisories/cert/cert_bulletins/VB-94:01.sco, http://www.osvdb.org/8797, https://exchange.xforce.ibmcloud.com/vulnerabilities/7586\n\nPublished: 1994-11-30\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1302"
+    },
+    {
+      "id": "CVE-1999-1303",
+      "title": "CVE-1999-1303: Vulnerability in prwarn in SCO UNIX 4.2 and earlier allows local users to gain root access.",
+      "description": "Vulnerability in prwarn in SCO UNIX 4.2 and earlier allows local users to gain root access.",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "sco openserver_network_system, sco open_desktop, sco openserver_enterprise_system, sco open_desktop_lite, sco unix",
+      "references": [
+        "http://ciac.llnl.gov/ciac/bulletins/f-05.shtml",
+        "http://ciac.llnl.gov/ciac/bulletins/f-05.shtml",
+        "http://ciac.llnl.gov/ciac/bulletins/f-05.shtml",
+        "http://ciac.llnl.gov/ciac/bulletins/f-05.shtml"
+      ],
+      "published": "1994-11-30",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1303\n\nDescription: Vulnerability in prwarn in SCO UNIX 4.2 and earlier allows local users to gain root access.\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: sco openserver_network_system, sco open_desktop, sco openserver_enterprise_system, sco open_desktop_lite, sco unix\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://ciac.llnl.gov/ciac/bulletins/f-05.shtml, http://ciac.llnl.gov/ciac/bulletins/f-05.shtml, http://ciac.llnl.gov/ciac/bulletins/f-05.shtml, http://ciac.llnl.gov/ciac/bulletins/f-05.shtml\n\nPublished: 1994-11-30\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1303"
+    },
+    {
+      "id": "CVE-1999-1304",
+      "title": "CVE-1999-1304: Vulnerability in login in SCO UNIX 4.2 and earlier allows local users to gain root access.",
+      "description": "Vulnerability in login in SCO UNIX 4.2 and earlier allows local users to gain root access.",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "sco openserver_network_system, sco open_desktop, sco openserver_enterprise_system, sco open_desktop_lite, sco unix",
+      "references": [
+        "http://ciac.llnl.gov/ciac/bulletins/f-05.shtml",
+        "http://ciac.llnl.gov/ciac/bulletins/f-05.shtml",
+        "http://ciac.llnl.gov/ciac/bulletins/f-05.shtml",
+        "http://ciac.llnl.gov/ciac/bulletins/f-05.shtml"
+      ],
+      "published": "1994-11-30",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1304\n\nDescription: Vulnerability in login in SCO UNIX 4.2 and earlier allows local users to gain root access.\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: sco openserver_network_system, sco open_desktop, sco openserver_enterprise_system, sco open_desktop_lite, sco unix\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://ciac.llnl.gov/ciac/bulletins/f-05.shtml, http://ciac.llnl.gov/ciac/bulletins/f-05.shtml, http://ciac.llnl.gov/ciac/bulletins/f-05.shtml, http://ciac.llnl.gov/ciac/bulletins/f-05.shtml\n\nPublished: 1994-11-30\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1304"
+    },
+    {
+      "id": "CVE-1999-1305",
+      "title": "CVE-1999-1305: Vulnerability in \"at\" program in SCO UNIX 4.2 and earlier allows local users to gain root access.",
+      "description": "Vulnerability in \"at\" program in SCO UNIX 4.2 and earlier allows local users to gain root access.",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "sco openserver_network_system, sco open_desktop, sco openserver_enterprise_system, sco open_desktop_lite, sco unix",
+      "references": [
+        "http://ciac.llnl.gov/ciac/bulletins/f-05.shtml",
+        "http://ciac.llnl.gov/ciac/bulletins/f-05.shtml",
+        "http://ciac.llnl.gov/ciac/bulletins/f-05.shtml",
+        "http://ciac.llnl.gov/ciac/bulletins/f-05.shtml"
+      ],
+      "published": "1994-11-30",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1305\n\nDescription: Vulnerability in \"at\" program in SCO UNIX 4.2 and earlier allows local users to gain root access.\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: sco openserver_network_system, sco open_desktop, sco openserver_enterprise_system, sco open_desktop_lite, sco unix\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://ciac.llnl.gov/ciac/bulletins/f-05.shtml, http://ciac.llnl.gov/ciac/bulletins/f-05.shtml, http://ciac.llnl.gov/ciac/bulletins/f-05.shtml, http://ciac.llnl.gov/ciac/bulletins/f-05.shtml\n\nPublished: 1994-11-30\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1305"
+    },
+    {
+      "id": "CVE-2000-0508",
+      "title": "CVE-2000-0508: rpc.lockd in Red Hat Linux 6.1 and 6.2 allows remote attackers to cause a denial of service via a ma...",
+      "description": "rpc.lockd in Red Hat Linux 6.1 and 6.2 allows remote attackers to cause a denial of service via a malformed request.",
+      "severity": "MEDIUM",
+      "cvss_score": 5.0,
+      "affected_products": "debian debian_linux, redhat linux, mandrakesoft mandrake_linux",
+      "references": [
+        "http://archives.neohapsis.com/archives/bugtraq/2000-06/0073.html",
+        "http://www.securityfocus.com/bid/1372",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/5050",
+        "http://archives.neohapsis.com/archives/bugtraq/2000-06/0073.html",
+        "http://www.securityfocus.com/bid/1372"
+      ],
+      "published": "1994-12-19",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-2000-0508\n\nDescription: rpc.lockd in Red Hat Linux 6.1 and 6.2 allows remote attackers to cause a denial of service via a malformed request.\n\nSeverity: MEDIUM\nCVSS Score: 5.0\n\nAffected Products: debian debian_linux, redhat linux, mandrakesoft mandrake_linux\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://archives.neohapsis.com/archives/bugtraq/2000-06/0073.html, http://www.securityfocus.com/bid/1372, https://exchange.xforce.ibmcloud.com/vulnerabilities/5050, http://archives.neohapsis.com/archives/bugtraq/2000-06/0073.html, http://www.securityfocus.com/bid/1372\n\nPublished: 1994-12-19\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-2000-0508"
+    },
+    {
+      "id": "CVE-1999-0077",
+      "title": "CVE-1999-0077: Predictable TCP sequence numbers allow spoofing.",
+      "description": "Predictable TCP sequence numbers allow spoofing.",
+      "severity": "MEDIUM",
+      "cvss_score": 5.0,
+      "affected_products": "microsoft windows_nt",
+      "references": [
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/139",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/139"
+      ],
+      "published": "1995-01-01",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-0077\n\nDescription: Predictable TCP sequence numbers allow spoofing.\n\nSeverity: MEDIUM\nCVSS Score: 5.0\n\nAffected Products: microsoft windows_nt\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: https://exchange.xforce.ibmcloud.com/vulnerabilities/139, https://exchange.xforce.ibmcloud.com/vulnerabilities/139\n\nPublished: 1995-01-01\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-0077"
+    },
+    {
+      "id": "CVE-1999-0232",
+      "title": "CVE-1999-0232: Buffer overflow in NCSA WebServer (version 1.5c) gives remote access.",
+      "description": "Buffer overflow in NCSA WebServer (version 1.5c) gives remote access.",
+      "severity": "HIGH",
+      "cvss_score": 10.0,
+      "affected_products": "ncsa_httpd_project ncsa_httpd",
+      "references": [
+        "https://www.cve.org/CVERecord?id=CVE-1999-0232",
+        "https://www.cve.org/CVERecord?id=CVE-1999-0232"
+      ],
+      "published": "1995-02-01",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-0232\n\nDescription: Buffer overflow in NCSA WebServer (version 1.5c) gives remote access.\n\nSeverity: HIGH\nCVSS Score: 10.0\n\nAffected Products: ncsa_httpd_project ncsa_httpd\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: https://www.cve.org/CVERecord?id=CVE-1999-0232, https://www.cve.org/CVERecord?id=CVE-1999-0232\n\nPublished: 1995-02-01\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-0232"
+    },
+    {
+      "id": "CVE-1999-0235",
+      "title": "CVE-1999-0235: Buffer overflow in NCSA WebServer (1.4.1 and below) gives remote access.",
+      "description": "Buffer overflow in NCSA WebServer (1.4.1 and below) gives remote access.",
+      "severity": "HIGH",
+      "cvss_score": 10.0,
+      "affected_products": "ncsa ncsa_web_server",
+      "references": [
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0235",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0235"
+      ],
+      "published": "1995-02-17",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-0235\n\nDescription: Buffer overflow in NCSA WebServer (1.4.1 and below) gives remote access.\n\nSeverity: HIGH\nCVSS Score: 10.0\n\nAffected Products: ncsa ncsa_web_server\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0235, https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0235\n\nPublished: 1995-02-17\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-0235"
+    },
+    {
+      "id": "CVE-1999-0242",
+      "title": "CVE-1999-0242: Remote attackers can access mail files via POP3 in some Linux systems that are using shadow password...",
+      "description": "Remote attackers can access mail files via POP3 in some Linux systems that are using shadow passwords.",
+      "severity": "HIGH",
+      "cvss_score": 7.5,
+      "affected_products": "slackware slackware_linux",
+      "references": [
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0242",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0242"
+      ],
+      "published": "1995-03-01",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-0242\n\nDescription: Remote attackers can access mail files via POP3 in some Linux systems that are using shadow passwords.\n\nSeverity: HIGH\nCVSS Score: 7.5\n\nAffected Products: slackware slackware_linux\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0242, https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0242\n\nPublished: 1995-03-01\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-0242"
+    },
+    {
+      "id": "CVE-1999-1098",
+      "title": "CVE-1999-1098: Vulnerability in BSD Telnet client with encryption and Kerberos 4 authentication allows remote attac...",
+      "description": "Vulnerability in BSD Telnet client with encryption and Kerberos 4 authentication allows remote attackers to decrypt the session via sniffing.",
+      "severity": "MEDIUM",
+      "cvss_score": 5.0,
+      "affected_products": "bsd bsd",
+      "references": [
+        "http://www.cert.org/advisories/CA-1995-03.html",
+        "http://www.ciac.org/ciac/bulletins/f-12.shtml",
+        "http://www.iss.net/security_center/static/516.php",
+        "http://www.osvdb.org/4881",
+        "http://www.cert.org/advisories/CA-1995-03.html"
+      ],
+      "published": "1995-03-03",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1098\n\nDescription: Vulnerability in BSD Telnet client with encryption and Kerberos 4 authentication allows remote attackers to decrypt the session via sniffing.\n\nSeverity: MEDIUM\nCVSS Score: 5.0\n\nAffected Products: bsd bsd\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.cert.org/advisories/CA-1995-03.html, http://www.ciac.org/ciac/bulletins/f-12.shtml, http://www.iss.net/security_center/static/516.php, http://www.osvdb.org/4881, http://www.cert.org/advisories/CA-1995-03.html\n\nPublished: 1995-03-03\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1098"
+    },
+    {
+      "id": "CVE-1999-1243",
+      "title": "CVE-1999-1243: SGI Desktop Permissions Tool in IRIX 6.0.1 and earlier allows local users to modify permissions for ...",
+      "description": "SGI Desktop Permissions Tool in IRIX 6.0.1 and earlier allows local users to modify permissions for arbitrary files and gain privileges.",
+      "severity": "MEDIUM",
+      "cvss_score": 4.6,
+      "affected_products": "sgi irix",
+      "references": [
+        "ftp://patches.sgi.com/support/free/security/advisories/19950301-01-P373",
+        "http://ciac.llnl.gov/ciac/bulletins/f-16.shtml",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/2113",
+        "ftp://patches.sgi.com/support/free/security/advisories/19950301-01-P373",
+        "http://ciac.llnl.gov/ciac/bulletins/f-16.shtml"
+      ],
+      "published": "1995-03-03",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1243\n\nDescription: SGI Desktop Permissions Tool in IRIX 6.0.1 and earlier allows local users to modify permissions for arbitrary files and gain privileges.\n\nSeverity: MEDIUM\nCVSS Score: 4.6\n\nAffected Products: sgi irix\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: ftp://patches.sgi.com/support/free/security/advisories/19950301-01-P373, http://ciac.llnl.gov/ciac/bulletins/f-16.shtml, https://exchange.xforce.ibmcloud.com/vulnerabilities/2113, ftp://patches.sgi.com/support/free/security/advisories/19950301-01-P373, http://ciac.llnl.gov/ciac/bulletins/f-16.shtml\n\nPublished: 1995-03-03\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1243"
+    },
+    {
+      "id": "CVE-1999-0151",
+      "title": "CVE-1999-0151: The SATAN session key may be disclosed if the user points the web browser to other sites, possibly a...",
+      "description": "The SATAN session key may be disclosed if the user points the web browser to other sites, possibly allowing root access.",
+      "severity": "HIGH",
+      "cvss_score": 7.6,
+      "affected_products": "satan satan",
+      "references": [
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0151",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0151"
+      ],
+      "published": "1995-04-03",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-0151\n\nDescription: The SATAN session key may be disclosed if the user points the web browser to other sites, possibly allowing root access.\n\nSeverity: HIGH\nCVSS Score: 7.6\n\nAffected Products: satan satan\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0151, https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0151\n\nPublished: 1995-04-03\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-0151"
+    },
+    {
+      "id": "CVE-1999-1080",
+      "title": "CVE-1999-1080: rmmount in SunOS 5.7 may mount file systems without the nosuid flag set, contrary to the documentati...",
+      "description": "rmmount in SunOS 5.7 may mount file systems without the nosuid flag set, contrary to the documentation and its use in previous versions of SunOS, which could allow local users with physical access to gain root privileges by mounting a floppy or CD-ROM that contains a setuid program and running volcheck, when the file systems do not have the nosuid option specified in rmmount.conf.",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "sun sunos",
+      "references": [
+        "http://marc.info/?l=bugtraq&m=92633694100270&w=2",
+        "http://marc.info/?l=bugtraq&m=93971288323395&w=2",
+        "http://www.securityfocus.com/bid/250",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/8350",
+        "http://marc.info/?l=bugtraq&m=92633694100270&w=2"
+      ],
+      "published": "1995-05-10",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1080\n\nDescription: rmmount in SunOS 5.7 may mount file systems without the nosuid flag set, contrary to the documentation and its use in previous versions of SunOS, which could allow local users with physical access to gain root privileges by mounting a floppy or CD-ROM that contains a setuid program and running volcheck, when the file systems do not have the nosuid option specified in rmmount.conf.\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: sun sunos\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://marc.info/?l=bugtraq&m=92633694100270&w=2, http://marc.info/?l=bugtraq&m=93971288323395&w=2, http://www.securityfocus.com/bid/250, https://exchange.xforce.ibmcloud.com/vulnerabilities/8350, http://marc.info/?l=bugtraq&m=92633694100270&w=2\n\nPublished: 1995-05-10\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1080"
+    },
+    {
+      "id": "CVE-1999-0066",
+      "title": "CVE-1999-0066: AnyForm CGI remote execution.",
+      "description": "AnyForm CGI remote execution.",
+      "severity": "CRITICAL",
+      "cvss_score": 9.8,
+      "affected_products": "john_s._roberts anyform",
+      "references": [
+        "http://www.securityfocus.com/bid/719",
+        "http://www.securityfocus.com/bid/719"
+      ],
+      "published": "1995-07-31",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-0066\n\nDescription: AnyForm CGI remote execution.\n\nSeverity: CRITICAL\nCVSS Score: 9.8\n\nAffected Products: john_s._roberts anyform\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.securityfocus.com/bid/719, http://www.securityfocus.com/bid/719\n\nPublished: 1995-07-31\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-0066"
+    },
+    {
+      "id": "CVE-1999-0161",
+      "title": "CVE-1999-0161: In Cisco IOS 10.3, with the tacacs-ds or tacacs keyword, an extended IP access control list could by...",
+      "description": "In Cisco IOS 10.3, with the tacacs-ds or tacacs keyword, an extended IP access control list could bypass filtering.",
+      "severity": "HIGH",
+      "cvss_score": 7.5,
+      "affected_products": "cisco ios",
+      "references": [
+        "http://www.osvdb.org/797",
+        "http://www.osvdb.org/797"
+      ],
+      "published": "1995-07-31",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-0161\n\nDescription: In Cisco IOS 10.3, with the tacacs-ds or tacacs keyword, an extended IP access control list could bypass filtering.\n\nSeverity: HIGH\nCVSS Score: 7.5\n\nAffected Products: cisco ios\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.osvdb.org/797, http://www.osvdb.org/797\n\nPublished: 1995-07-31\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-0161"
+    },
+    {
+      "id": "CVE-1999-0172",
+      "title": "CVE-1999-0172: FormMail CGI program allows remote execution of commands.",
+      "description": "FormMail CGI program allows remote execution of commands.",
+      "severity": "HIGH",
+      "cvss_score": 7.5,
+      "affected_products": "matt_wright formmail",
+      "references": [
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0172",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0172"
+      ],
+      "published": "1995-08-02",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-0172\n\nDescription: FormMail CGI program allows remote execution of commands.\n\nSeverity: HIGH\nCVSS Score: 7.5\n\nAffected Products: matt_wright formmail\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0172, https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0172\n\nPublished: 1995-08-02\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-0172"
+    },
+    {
+      "id": "CVE-1999-0203",
+      "title": "CVE-1999-0203: In Sendmail, attackers can gain root privileges via SMTP by specifying an improper \"mail from\" addre...",
+      "description": "In Sendmail, attackers can gain root privileges via SMTP by specifying an improper \"mail from\" address and an invalid \"rcpt to\" address that would cause the mail to bounce to a program.",
+      "severity": "HIGH",
+      "cvss_score": 10.0,
+      "affected_products": "eric_allman sendmail",
+      "references": [
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0203",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0203"
+      ],
+      "published": "1995-08-17",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-0203\n\nDescription: In Sendmail, attackers can gain root privileges via SMTP by specifying an improper \"mail from\" address and an invalid \"rcpt to\" address that would cause the mail to bounce to a program.\n\nSeverity: HIGH\nCVSS Score: 10.0\n\nAffected Products: eric_allman sendmail\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0203, https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0203\n\nPublished: 1995-08-17\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-0203"
+    },
+    {
+      "id": "CVE-1999-1580",
+      "title": "CVE-1999-1580: SunOS sendmail 5.59 through 5.65 uses popen to process a forwarding host argument, which allows loca...",
+      "description": "SunOS sendmail 5.59 through 5.65 uses popen to process a forwarding host argument, which allows local users to gain root privileges by modifying the IFS (Internal Field Separator) variable and passing crafted values to the -oR option.",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "affected_products": "sun sunos, sendmail sendmail",
+      "references": [
+        "http://www.alw.nih.gov/Security/8lgm/8lgm-Advisory-21.html",
+        "http://www.auscert.org.au/render.html?it=1853&cid=1978",
+        "http://www.cert.org/advisories/CA-95.11.sun.sendmail-oR.vul",
+        "http://www.kb.cert.org/vuls/id/3278",
+        "http://www.securityfocus.com/bid/7829"
+      ],
+      "published": "1995-08-23",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-1580\n\nDescription: SunOS sendmail 5.59 through 5.65 uses popen to process a forwarding host argument, which allows local users to gain root privileges by modifying the IFS (Internal Field Separator) variable and passing crafted values to the -oR option.\n\nSeverity: HIGH\nCVSS Score: 7.2\n\nAffected Products: sun sunos, sendmail sendmail\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.alw.nih.gov/Security/8lgm/8lgm-Advisory-21.html, http://www.auscert.org.au/render.html?it=1853&cid=1978, http://www.cert.org/advisories/CA-95.11.sun.sendmail-oR.vul, http://www.kb.cert.org/vuls/id/3278, http://www.securityfocus.com/bid/7829\n\nPublished: 1995-08-23\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-1580"
+    },
+    {
+      "id": "CVE-1999-0164",
+      "title": "CVE-1999-0164: A race condition in the Solaris ps command allows an attacker to overwrite critical files.",
+      "description": "A race condition in the Solaris ps command allows an attacker to overwrite critical files.",
+      "severity": "MEDIUM",
+      "cvss_score": 6.2,
+      "affected_products": "sun sunos",
+      "references": [
+        "http://www.osvdb.org/8346",
+        "http://www.osvdb.org/8346"
+      ],
+      "published": "1995-08-29",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-0164\n\nDescription: A race condition in the Solaris ps command allows an attacker to overwrite critical files.\n\nSeverity: MEDIUM\nCVSS Score: 6.2\n\nAffected Products: sun sunos\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: http://www.osvdb.org/8346, http://www.osvdb.org/8346\n\nPublished: 1995-08-29\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-0164"
+    },
+    {
+      "id": "CVE-1999-0155",
+      "title": "CVE-1999-0155: The ghostscript command with the -dSAFER option allows remote attackers to execute commands.",
+      "description": "The ghostscript command with the -dSAFER option allows remote attackers to execute commands.",
+      "severity": "HIGH",
+      "cvss_score": 7.5,
+      "affected_products": "aladdin_enterprises ghostscript",
+      "references": [
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0155",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0155"
+      ],
+      "published": "1995-08-31",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-0155\n\nDescription: The ghostscript command with the -dSAFER option allows remote attackers to execute commands.\n\nSeverity: HIGH\nCVSS Score: 7.5\n\nAffected Products: aladdin_enterprises ghostscript\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0155, https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0155\n\nPublished: 1995-08-31\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-0155"
+    },
+    {
+      "id": "CVE-1999-0245",
+      "title": "CVE-1999-0245: Some configurations of NIS+ in Linux allowed attackers to log in as the user \"+\".",
+      "description": "Some configurations of NIS+ in Linux allowed attackers to log in as the user \"+\".",
+      "severity": "MEDIUM",
+      "cvss_score": 4.6,
+      "affected_products": "linux linux_kernel",
+      "references": [
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0245",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0245"
+      ],
+      "published": "1995-09-07",
+      "weaknesses": [
+        "NVD-CWE-Other"
+      ],
+      "content": "CVE ID: CVE-1999-0245\n\nDescription: Some configurations of NIS+ in Linux allowed attackers to log in as the user \"+\".\n\nSeverity: MEDIUM\nCVSS Score: 4.6\n\nAffected Products: linux linux_kernel\n\nWeaknesses (CWE): NVD-CWE-Other\n\nReferences: https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0245, https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0245\n\nPublished: 1995-09-07\n\nFor more information, see: https://nvd.nist.gov/vuln/detail/CVE-1999-0245"
+    }
+  ]
+}

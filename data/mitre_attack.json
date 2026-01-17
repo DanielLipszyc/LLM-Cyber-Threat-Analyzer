@@ -1,0 +1,84 @@
+{
+  "techniques": [
+    {
+      "id": "T1059.001",
+      "name": "PowerShell",
+      "tactic": "Execution",
+      "description": "Adversaries may abuse PowerShell commands and scripts for execution. PowerShell is a powerful interactive command-line interface and scripting environment included in the Windows operating system. Adversaries can use PowerShell to perform a number of actions, including discovery of information and execution of code.",
+      "platforms": ["Windows"],
+      "detection": "Monitor for loading of PowerShell modules and scripts. Enable PowerShell logging including Module Logging, Script Block Logging, and Transcription.",
+      "mitigation": "Disable PowerShell for users who don't need it. Use Application Control to restrict PowerShell execution.",
+      "examples": ["APT29 uses PowerShell for execution and lateral movement", "Emotet uses PowerShell to download additional payloads"]
+    },
+    {
+      "id": "T1566.001",
+      "name": "Spearphishing Attachment",
+      "tactic": "Initial Access",
+      "description": "Adversaries may send spearphishing emails with a malicious attachment in an attempt to gain access to victim systems. Spearphishing attachment is a specific variant of spearphishing. All forms of spearphishing are electronically delivered social engineering targeted at a specific individual, company, or industry.",
+      "platforms": ["Windows", "macOS", "Linux"],
+      "detection": "Monitor for suspicious email attachments. Use email security solutions to scan attachments. Monitor for process execution from Office applications.",
+      "mitigation": "User training on identifying phishing. Email filtering and sandboxing. Disable macros in Office documents.",
+      "examples": ["APT28 uses spearphishing with malicious Word documents", "Lazarus Group sends weaponized Office documents"]
+    },
+    {
+      "id": "T1003.001",
+      "name": "LSASS Memory",
+      "tactic": "Credential Access",
+      "description": "Adversaries may attempt to access credential material stored in the process memory of the Local Security Authority Subsystem Service (LSASS). After a user logs on, the system generates and stores a variety of credential materials in LSASS process memory. Tools like Mimikatz can extract these credentials.",
+      "platforms": ["Windows"],
+      "detection": "Monitor for processes accessing LSASS. Enable Credential Guard. Monitor for suspicious LSASS access patterns.",
+      "mitigation": "Enable Credential Guard. Restrict debug privileges. Use Protected Users security group.",
+      "examples": ["Mimikatz used to dump credentials from LSASS", "APT groups commonly target LSASS for credential theft"]
+    },
+    {
+      "id": "T1486",
+      "name": "Data Encrypted for Impact",
+      "tactic": "Impact",
+      "description": "Adversaries may encrypt data on target systems or on large numbers of systems in a network to interrupt availability to system and network resources. This is commonly associated with ransomware attacks where adversaries encrypt files and demand payment for the decryption key.",
+      "platforms": ["Windows", "macOS", "Linux"],
+      "detection": "Monitor for file modification events with encryption-related extensions. Monitor for mass file operations. Use behavior-based detection for ransomware.",
+      "mitigation": "Maintain offline backups. Implement application whitelisting. Use endpoint protection with ransomware detection.",
+      "examples": ["REvil ransomware encrypts files and demands cryptocurrency", "LockBit targets enterprise networks with double extortion"]
+    },
+    {
+      "id": "T1021.001",
+      "name": "Remote Desktop Protocol",
+      "tactic": "Lateral Movement",
+      "description": "Adversaries may use Remote Desktop Protocol (RDP) to move laterally within a network. RDP is a common feature in Windows that allows users to log into an interactive session with a remote system. Adversaries may connect to remote systems over RDP to expand access if the service is enabled and allows access.",
+      "platforms": ["Windows"],
+      "detection": "Monitor for RDP connection events. Analyze authentication logs for unusual RDP activity. Monitor for brute-force attempts.",
+      "mitigation": "Limit RDP access with firewall rules. Use Network Level Authentication. Implement multi-factor authentication.",
+      "examples": ["APT groups use stolen credentials for RDP access", "Ransomware operators use RDP for lateral movement"]
+    },
+    {
+      "id": "T1547.001",
+      "name": "Registry Run Keys / Startup Folder",
+      "tactic": "Persistence",
+      "description": "Adversaries may achieve persistence by adding a program to a startup folder or referencing it with a Registry run key. Adding an entry to the run keys in the Registry or startup folder will cause the program referenced to be executed when a user logs in.",
+      "platforms": ["Windows"],
+      "detection": "Monitor Registry for changes to run keys. Monitor startup folder for new files. Use autoruns tools to identify persistence mechanisms.",
+      "mitigation": "Restrict Registry permissions. Monitor and alert on startup folder changes. Use application whitelisting.",
+      "examples": ["Emotet adds itself to run keys for persistence", "TrickBot establishes persistence via Registry"]
+    },
+    {
+      "id": "T1071.001",
+      "name": "Web Protocols",
+      "tactic": "Command and Control",
+      "description": "Adversaries may communicate using application layer protocols associated with web traffic to avoid detection. Commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
+      "platforms": ["Windows", "macOS", "Linux"],
+      "detection": "Monitor for anomalous HTTP/HTTPS traffic patterns. Analyze network traffic for beaconing behavior. Use SSL inspection where possible.",
+      "mitigation": "Use network intrusion detection. Implement web filtering. Monitor for unusual traffic patterns.",
+      "examples": ["Cobalt Strike uses HTTP/HTTPS for C2", "APT groups commonly use web protocols to blend with normal traffic"]
+    },
+    {
+      "id": "T1055",
+      "name": "Process Injection",
+      "tactic": "Defense Evasion",
+      "description": "Adversaries may inject code into processes in order to evade process-based defenses as well as possibly elevate privileges. Process injection is a method of executing arbitrary code in the address space of a separate live process.",
+      "platforms": ["Windows", "macOS", "Linux"],
+      "detection": "Monitor for processes loading unexpected DLLs. Use behavior-based detection for injection techniques. Monitor for suspicious process relationships.",
+      "mitigation": "Use endpoint detection and response tools. Enable Attack Surface Reduction rules. Implement code integrity policies.",
+      "examples": ["Cobalt Strike uses various injection techniques", "Banking trojans inject into browser processes"]
+    }
+  ]
+}
