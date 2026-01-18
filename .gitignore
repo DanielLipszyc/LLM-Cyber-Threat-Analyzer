@@ -3,47 +3,29 @@
 venv/
 .venv/
 
+# Data
+chroma_db/
+threat_intel.db
+data/nvd_cves.json
+data/mitre_attack_full.json
+
 # Python
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
+*.pyc
+*.pyo
 *.egg-info/
-.installed.cfg
-*.egg
-
-# ChromaDB
-chroma_db/
-*.chromadb
+dist/
+build/
 
 # IDE
-.idea/
 .vscode/
-*.swp
-*.swo
+.idea/
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
-logs/
-
-# Test
+# Testing
 .pytest_cache/
 .coverage
 htmlcov/
