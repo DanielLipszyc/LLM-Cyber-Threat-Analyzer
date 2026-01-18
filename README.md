@@ -28,10 +28,10 @@ A Retrieval-Augmented Generation (RAG) system for querying security threat intel
                               ▼
 ┌─────────────────────────────────────────────────────────────────┐
 │                     Hybrid Retrieval                            │
-│  ┌─────────────────┐         ┌─────────────────┐               │
-│  │ Dense Retrieval │         │ Sparse (BM25)   │               │
-│  │   (Embeddings)  │         │   Retrieval     │               │
-│  └─────────────────┘         └─────────────────┘               │
+│  ┌─────────────────┐         ┌─────────────────┐                │
+│  │ Dense Retrieval │         │ Sparse (BM25)   │                │
+│  │   (Embeddings)  │         │   Retrieval     │                │
+│  └─────────────────┘         └─────────────────┘                │
 │            │                         │                          │
 │            └────────┬────────────────┘                          │
 │                     ▼                                           │
