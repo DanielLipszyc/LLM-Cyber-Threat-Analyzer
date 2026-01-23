@@ -195,13 +195,6 @@ docker build -t threat-intel-rag .
 docker run -p 8501:8501 -e OPENAI_API_KEY=your_key threat-intel-rag
 ```
 
-### Cloud Deployment
-
-See deployment guides for:
-- [AWS (ECS/Fargate)](docs/deploy-aws.md)
-- [Google Cloud Run](docs/deploy-gcp.md)
-- [Azure Container Apps](docs/deploy-azure.md)
-
 ## Adding Custom Data
 
 1. Prepare your data as JSON with this structure:
