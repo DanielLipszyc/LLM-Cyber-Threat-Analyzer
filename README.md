@@ -1,4 +1,4 @@
-# 🔒 RAG-Powered Security Threat Intelligence Assistant
+# RAG-Powered Security Threat Intelligence Assistant
 
 A Retrieval-Augmented Generation (RAG) system for querying security threat intelligence data. Ask questions about CVEs, attack techniques, malware, and vulnerabilities in natural language.
 
